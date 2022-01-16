@@ -77,4 +77,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Assign Manager</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>0a88a460-bc84-4d62-b408-fdaa4a4671e7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Remove Manager</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
