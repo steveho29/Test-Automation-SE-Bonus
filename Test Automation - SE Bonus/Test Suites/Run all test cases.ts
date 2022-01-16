@@ -95,4 +95,28 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Remove Course Creator</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>0ab45bc5-4eb6-4f56-9081-33fdb019c392</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Enroll Student</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>58afa3e1-4ba3-41f1-92f8-35d8878e9118</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Unenroll Student</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>abf42f90-1bc0-4a72-95a2-158bd7a87dae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Assign Course Teacher</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ddb7f55f-689b-444d-876e-74e5f3f713e0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Remove Course Teacher</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

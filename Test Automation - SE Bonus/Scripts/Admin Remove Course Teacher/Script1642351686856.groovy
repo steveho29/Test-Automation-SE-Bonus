@@ -17,23 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home (3)'))
+WebUI.callTestCase(findTestCase('Admin Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle/a_New Course Edited (2)'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home (5)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (2)'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle/a_New Course Edited (4)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/a_More (2)'))
+WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (4)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course administration/a_Users (2)'))
+WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/a_More (4)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course administration/a_Enrolled users (2)'))
+WebUI.click(findTestObject('Object Repository/Page_Course administration/a_Users (4)'))
 
-WebUI.click(findTestObject('Object Repository/Page_New Course Participants/input_Participants_btn btn-secondary my-1 (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Course administration/a_Other users'))
 
-WebUI.click(findTestObject('Object Repository/Page_New Course Participants/span_ (1)'))
+WebUI.click(findTestObject('Object Repository/Page_New Course Edited 0 other users/button_Assign roles'))
 
-WebUI.click(findTestObject('Object Repository/Page_New Course Participants/li_c H    hongocminhducgmail.com'))
+WebUI.click(findTestObject('Object Repository/Page_Assign roles in Course New Course Edited/a_Teacher'))
 
-WebUI.click(findTestObject('Object Repository/Page_New Course Participants/button_Enrol users (2)'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/select_c H (hongocminhducgmail.com)'), 
+    '2', true)
+
+WebUI.click(findTestObject('Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/input_Match the search text anywhere in the_31d039'))
 

@@ -19,18 +19,26 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Admin Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration (9)'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home (5)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Users (5)'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle/a_New Course Edited (4)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Assign system roles (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (4)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Manager (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/a_More (4)'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Administration Users Permission_6fdc16/select_c H (hongocminhducgmail.com)'), 
+WebUI.click(findTestObject('Object Repository/Page_Course administration/a_Users (4)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course administration/a_Other users'))
+
+WebUI.click(findTestObject('Object Repository/Page_New Course Edited 0 other users/button_Assign roles'))
+
+WebUI.click(findTestObject('Object Repository/Page_Assign roles in Course New Course Edited/a_Teacher'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/select_c H (hongocminhducgmail.com)    c H _8cfc97'), 
     '2', true)
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Permission_6fdc16/input_Match the search text anywhere in the_31d039'))
+WebUI.click(findTestObject('Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/input_Match the search text anywhere in the_89f7b5'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Back to the list of all roles (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/a_Back to the list of all roles'))
 
