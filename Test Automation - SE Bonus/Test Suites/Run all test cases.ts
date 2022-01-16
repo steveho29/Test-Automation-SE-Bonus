@@ -119,4 +119,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Remove Course Teacher</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>b67b3186-acf6-48d5-b94c-1ae883691905</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin assign non-edit teacher</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>83463857-7a20-4b52-be36-e44781ffe3d9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin remove non-edit teacher</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
