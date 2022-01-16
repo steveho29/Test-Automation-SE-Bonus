@@ -17,19 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration (4)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Users (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Courses (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Upload users'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Add a category (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts U_511d49/input_File_userfilechoose'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Add new category/span_'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts U_511d49/span_Upload a file'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Add new category/select_Top            Miscellaneous        _183c6c'), 
+    '', true)
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts U_511d49/button_Upload this file'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Add new category/input_No selection_form_autocomplete_input-_eddbe0'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts U_511d49/input_Preview rows_submitbutton'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Add new category/span__1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts U_511d49/input_Preview rows_submitbutton'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Add new category/li_New Category'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Add new category/select_Top            Miscellaneous        _183c6c'), 
+    '2', true)
+
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Add new category/input_Category name_name (1)'), 'Child Category')
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Add new category/input_Description_submitbutton (1)'))
 

@@ -17,16 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://localhost/moodle/login/index.php')
-
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Log in to the site/input_Username_username (2)'), 'admin')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to the site/input_Password_password (2)'), '8JanWqnBZBo6yBKKrpSnpw==')
-
-WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in (1)'))
-
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration'))
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Users'))
@@ -36,31 +26,19 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/
 WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Username_username'), 
     'minhduc')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/em_Click to enter text'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_New password_newpassword'), 
-    'r1CxSoptTpw=')
-
 WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_First name_firstname'), 
     'Đức')
 
 WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Surname_lastname'), 
     'Minh')
 
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Email address_email'), 
-    'hongocminhduc29@gmail.com')
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/select_Select a country.            Afghani_160506'), 
     'VN', true)
-
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Address_submitbutton'))
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/i__icon fa fa-pencil fa-fw'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_New password_newpassword'), 
     '8JanWqnBZBo6yBKKrpSnpw==')
-
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Address_submitbutton'))
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Email address_email'))
 

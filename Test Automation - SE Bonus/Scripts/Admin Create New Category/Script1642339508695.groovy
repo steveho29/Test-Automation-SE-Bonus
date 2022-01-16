@@ -17,19 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Users (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Courses'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Upload users'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Add a category'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts U_511d49/input_File_userfilechoose'))
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Add new category/input_Category name_name'), 'New Category')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts U_511d49/span_Upload a file'))
-
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts U_511d49/button_Upload this file'))
-
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts U_511d49/input_Preview rows_submitbutton'))
-
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts U_511d49/input_Preview rows_submitbutton'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Add new category/input_Description_submitbutton'))
 

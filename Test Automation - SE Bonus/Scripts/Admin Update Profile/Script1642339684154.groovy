@@ -17,21 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/img_c Minh_userpicture defaultuserpic'))
 
-WebUI.navigateToUrl('http://localhost/moodle/login/index.php')
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/span_Profile'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Log in to the site/input_Username_username (1)'), 'admin')
+WebUI.click(findTestObject('Object Repository/Page_c Minh Public profile/a_Edit profile'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to the site/input_Password_password (1)'), '8JanWqnBZBo6yBKKrpSnpw==')
+WebUI.click(findTestObject('Object Repository/Page_Moodle Edit profile/div_Surname'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Edit profile/input_Surname_lastname'), 'Hồ')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle/button_Add a new course'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Edit profile/div_Email address_yui_3_17_2_1_1642339639116_856'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Add a new course/input_Course full name_fullname'), 'New Course')
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Edit profile/input_Email address_email'), 'hongocminhduc@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Add a new course/input_Course short name_shortname'), 'New Course')
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Edit profile/select_Select a country.            Afghani_160506'), 
+    'VN', true)
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Add a new course/input__saveandreturn'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Edit profile/input_Address_submitbutton'))
 

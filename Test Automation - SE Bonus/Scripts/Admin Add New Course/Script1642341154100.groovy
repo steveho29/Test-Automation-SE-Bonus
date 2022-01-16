@@ -17,19 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration (5)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Users (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Courses (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Upload users'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Add a new course'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts U_511d49/input_File_userfilechoose'))
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Add a new course/div_1 1'), '1 <p>1</p>')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts U_511d49/span_Upload a file'))
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Add a new course/input_Course full name_fullname (1)'), 'New Course')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts U_511d49/button_Upload this file'))
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Add a new course/input_Course short name_shortname (1)'), 'New Course')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts U_511d49/input_Preview rows_submitbutton'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Add a new course/span_ (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts U_511d49/input_Preview rows_submitbutton'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Add a new course/li_New Category'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Add a new course/select_Miscellaneous            New Categor_201542'), 
+    '2', true)
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Add a new course/input__saveanddisplay'))
 
