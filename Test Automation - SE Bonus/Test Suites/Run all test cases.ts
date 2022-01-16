@@ -65,4 +65,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher_Add_NewAnnouncement</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>5f50baf8-ce47-42bc-9aaa-b3b0008a1323</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Edit Courses Name</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6a3e586e-1818-4fad-ada3-f120b8c16374</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Assign Manager</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

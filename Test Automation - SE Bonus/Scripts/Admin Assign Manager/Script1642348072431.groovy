@@ -17,9 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_Moodle Add an announcement/Page_Dashboard/a_Admin User'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration (8)'))
 
-WebUI.click(findTestObject('Page_Moodle Add an announcement/Page_Dashboard/span_Switch role to'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Users (4)'))
 
-WebUI.click(findTestObject('Page_Moodle Add an announcement/Page_Switch role to/button_Teacher'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Assign system roles'))
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Manager'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Administration Users Permission_6fdc16/select_c H (hongocminhducgmail.com)    c H _8cfc97'), 
+    '2', true)
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Permission_6fdc16/input_Match the search text anywhere in the_89f7b5'))
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Back to the list of all roles'))
 

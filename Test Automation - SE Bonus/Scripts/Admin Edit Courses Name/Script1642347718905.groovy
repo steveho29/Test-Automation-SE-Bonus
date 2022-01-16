@@ -17,9 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_Moodle Add an announcement/Page_Dashboard/a_Admin User'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home (1)'))
 
-WebUI.click(findTestObject('Page_Moodle Add an announcement/Page_Dashboard/span_Switch role to'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle/a_New Course'))
 
-WebUI.click(findTestObject('Page_Moodle Add an announcement/Page_Switch role to/button_Teacher'))
+WebUI.click(findTestObject('Object Repository/Page_Course New Course/i_New Course_icon fa fa-cog fa-fw'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course New Course/a_Edit settings'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Edit course settings/input_Course full name_fullname'), 'New Course Edited')
+
+WebUI.click(findTestObject('Object Repository/Page_Edit course settings/input__saveanddisplay'))
 
