@@ -25,13 +25,6 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Add new category/span_'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Add new category/select_Top            Miscellaneous        _183c6c'), 
-    '', true)
-
-WebUI.click(findTestObject('Object Repository/Page_Moodle Add new category/input_No selection_form_autocomplete_input-_eddbe0'))
-
-WebUI.click(findTestObject('Object Repository/Page_Moodle Add new category/span__1'))
-
 WebUI.click(findTestObject('Object Repository/Page_Moodle Add new category/li_New Category'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Add new category/select_Top            Miscellaneous        _183c6c'), 

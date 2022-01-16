@@ -17,33 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration (7)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Users'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Users (3)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Add a new user'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Add a new user (2)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Username_username'), 
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Username_username (2)'), 
     'minhduc')
 
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_First name_firstname'), 
-    'Đức')
+WebUI.click(findTestObject('Page_Moodle Administration Users Accounts A_0fbd97/a_Click to enter text'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Surname_lastname'), 
-    'Minh')
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/select_Select a country.            Afghani_160506'), 
-    'VN', true)
-
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/i__icon fa fa-pencil fa-fw'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_New password_newpassword'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_New password_newpassword (2)'), 
     '8JanWqnBZBo6yBKKrpSnpw==')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Email address_email'))
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_First name_firstname (2)'), 
+    'Đức')
 
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Email address_email'), 
-    'hnmduc19@clc.fitus.edu.vn')
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Surname_lastname (2)'), 
+    'Hồ')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Address_submitbutton'))
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Email address_email (2)'), 
+    'hongocminhduc@gmail.com')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/select_Select a country.            Afghani_160506 (2)'), 
+    'VN', true)
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Address_submitbutton (2)'))
 

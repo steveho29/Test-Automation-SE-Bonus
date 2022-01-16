@@ -24,12 +24,6 @@
       <testCaseId>Test Cases/Admin Add User</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>35774bee-0a3d-46c1-9943-6ae59bcf621c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Upload Users CSV</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f8a69f3e-331e-4d50-9deb-45a7d888fe8c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -23,18 +23,9 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Add a new course'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Add a new course/div_1 1'), '1 <p>1</p>')
-
 WebUI.setText(findTestObject('Object Repository/Page_Moodle Add a new course/input_Course full name_fullname (1)'), 'New Course')
 
 WebUI.setText(findTestObject('Object Repository/Page_Moodle Add a new course/input_Course short name_shortname (1)'), 'New Course')
-
-WebUI.click(findTestObject('Object Repository/Page_Moodle Add a new course/span_ (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_Moodle Add a new course/li_New Category'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Add a new course/select_Miscellaneous            New Categor_201542'), 
-    '2', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Add a new course/input__saveanddisplay'))
 

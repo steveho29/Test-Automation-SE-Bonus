@@ -34,5 +34,5 @@ WebUI.setText(findTestObject('Object Repository/Page_Moodle Edit profile/input_E
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Edit profile/select_Select a country.            Afghani_160506'), 
     'VN', true)
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Edit profile/input_Address_submitbutton'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Moodle Edit profile/input_Address_submitbutton'), Keys.chord(Keys.ENTER))
 
