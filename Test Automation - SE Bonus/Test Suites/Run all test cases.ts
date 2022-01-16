@@ -53,4 +53,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Add New Course</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>1eb9173a-4cbe-4e76-834f-7dc4222c4a69</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin_Switch_Role</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e96a8529-68ac-4796-b1b7-3590ebf9b0ca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher_Add_NewAnnouncement</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

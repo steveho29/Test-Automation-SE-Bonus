@@ -17,33 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://localhost/moodle/login/index.php')
-
-WebUI.setText(findTestObject('Object Repository/1/Page_moodle Log in to the site/input_Username_username'), 'admin')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/1/Page_moodle Log in to the site/input_Password_password'), '8JanWqnBZBo6yBKKrpSnpw==')
-
-WebUI.click(findTestObject('Object Repository/1/Page_moodle Log in to the site/button_Log in'))
-
 WebUI.click(findTestObject('Object Repository/1/Page_Dashboard/a_Admin User'))
 
 WebUI.click(findTestObject('Object Repository/1/Page_Dashboard/span_Switch role to'))
 
 WebUI.click(findTestObject('Object Repository/1/Page_Switch role to/button_Teacher'))
-
-WebUI.click(findTestObject('Object Repository/1/Page_Dashboard/span_Site home'))
-
-WebUI.click(findTestObject('Object Repository/1/Page_moodle/a_Test'))
-
-WebUI.click(findTestObject('Object Repository/1/Page_Course Test/span_Announcements Forum'))
-
-WebUI.click(findTestObject('Object Repository/1/Page_Announcements/a_Add a new topic'))
-
-WebUI.setText(findTestObject('Object Repository/1/Page_Announcements/input_Subject_subject'), 'Thông báo')
-
-WebUI.setText(findTestObject('Object Repository/1/Page_Announcements/div_Thng bo'), '<p dir="ltr" style="text-align: left;">Thông báo</p>')
-
-WebUI.click(findTestObject('Object Repository/1/Page_Announcements/input_Message_submitbutton'))
 
