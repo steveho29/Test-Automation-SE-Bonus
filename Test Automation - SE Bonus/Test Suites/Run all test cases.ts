@@ -83,4 +83,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Remove Manager</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>8b132cc2-bb31-40e2-9aa9-fc226babd754</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Assign Course Creator</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>417ebea4-7ad6-48b4-a693-f0d94081880d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Remove Course Creator</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
