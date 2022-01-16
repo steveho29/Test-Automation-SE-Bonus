@@ -24,6 +24,12 @@
       <testCaseId>Test Cases/Admin Add User</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>c617be0a-5346-4486-b8e2-93c8c61273ad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Add Exists User</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>f8a69f3e-331e-4d50-9deb-45a7d888fe8c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
