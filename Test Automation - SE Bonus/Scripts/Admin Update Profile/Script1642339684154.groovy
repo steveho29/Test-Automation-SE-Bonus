@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Admin Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/img_c Minh_userpicture defaultuserpic'))
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/span_Profile'))

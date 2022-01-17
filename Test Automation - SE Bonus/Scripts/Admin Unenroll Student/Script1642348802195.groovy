@@ -17,16 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://localhost/moodle/login/index.php')
-
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Log in to the site/input_Username_username (15)'), 'admin')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to the site/input_Password_password (15)'), 
-    '8JanWqnBZBo6yBKKrpSnpw==')
-
-WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in (12)'))
+WebUI.callTestCase(findTestCase('Admin Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home (2)'))
 

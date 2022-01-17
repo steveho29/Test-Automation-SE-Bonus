@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Admin Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration (2)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Courses'))

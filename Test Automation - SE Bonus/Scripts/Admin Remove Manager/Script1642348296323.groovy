@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Admin Login'), [:], FailureHandling.STOP_ON_FAI
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site administration (9)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Users (5)'))
+WebUI.click(findTestObject('Page_Moodle Administration Search/a_Users (6)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Assign system roles (1)'))
 
