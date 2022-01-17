@@ -40,7 +40,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users
     'Hồ')
 
 WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Email address_email (2)'), 
-    'hongocminhduc@gmail.com')
+    'hnmduc19@clc.fitus.edu.vn')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/select_Select a country.            Afghani_160506 (2)'), 
     'VN', true)

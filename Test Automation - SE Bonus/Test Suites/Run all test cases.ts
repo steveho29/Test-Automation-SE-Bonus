@@ -131,4 +131,64 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin remove non-edit teacher</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>bc07d770-4407-4434-a447-f61f8fa2ddc5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>37207dbd-c04e-42cb-814a-1ac2cfccc166</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student View Grades</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>818a2fa1-e4b0-4b97-a006-5a2147dc1208</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student Add New Discussion Topic</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dfc92930-8052-4afd-bae2-0f68a1a13ca1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student Reply A Discussion Topic</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a8b2dd08-ca99-4602-b242-a72a5506a779</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student Attempt Quiz</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3ba054dc-e9f2-47e8-ab0e-9d8f1959269b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student Enter Chat Room</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1974132d-9576-41bd-9454-5dd0f4bde63b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student Mark As Done</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>130b6a63-e08b-4266-94f9-5de6956ce4b3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student Submit Assignment</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>43c927f8-a934-4bcd-893b-1d001d1baff5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student Submit Late</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>42f3ae65-5709-409c-a2fe-30149feaabe5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student View Calendar</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
