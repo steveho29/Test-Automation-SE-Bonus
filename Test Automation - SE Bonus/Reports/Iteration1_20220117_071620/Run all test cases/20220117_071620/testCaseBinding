@@ -1,0 +1,20 @@
+{"testCaseName":"Test Cases/Admin Login","testCaseId":"Test Cases/Admin Login"}
+{"testCaseName":"Test Cases/Admin Add User","testCaseId":"Test Cases/Admin Add User"}
+{"testCaseName":"Test Cases/Admin Add Exists User","testCaseId":"Test Cases/Admin Add Exists User"}
+{"testCaseName":"Test Cases/Admin Update Profile","testCaseId":"Test Cases/Admin Update Profile"}
+{"testCaseName":"Test Cases/Admin Create New Category","testCaseId":"Test Cases/Admin Create New Category"}
+{"testCaseName":"Test Cases/Admin Add Child Category","testCaseId":"Test Cases/Admin Add Child Category"}
+{"testCaseName":"Test Cases/Admin Add New Course","testCaseId":"Test Cases/Admin Add New Course"}
+{"testCaseName":"Test Cases/Admin_Switch_Role","testCaseId":"Test Cases/Admin_Switch_Role"}
+{"testCaseName":"Test Cases/Teacher_Add_NewAnnouncement","testCaseId":"Test Cases/Teacher_Add_NewAnnouncement"}
+{"testCaseName":"Test Cases/Admin Edit Courses Name","testCaseId":"Test Cases/Admin Edit Courses Name"}
+{"testCaseName":"Test Cases/Admin Assign Manager","testCaseId":"Test Cases/Admin Assign Manager"}
+{"testCaseName":"Test Cases/Admin Remove Manager","testCaseId":"Test Cases/Admin Remove Manager"}
+{"testCaseName":"Test Cases/Admin Assign Course Creator","testCaseId":"Test Cases/Admin Assign Course Creator"}
+{"testCaseName":"Test Cases/Admin Remove Course Creator","testCaseId":"Test Cases/Admin Remove Course Creator"}
+{"testCaseName":"Test Cases/Admin Enroll Student","testCaseId":"Test Cases/Admin Enroll Student"}
+{"testCaseName":"Test Cases/Admin Unenroll Student","testCaseId":"Test Cases/Admin Unenroll Student"}
+{"testCaseName":"Test Cases/Admin Assign Course Teacher","testCaseId":"Test Cases/Admin Assign Course Teacher"}
+{"testCaseName":"Test Cases/Admin Remove Course Teacher","testCaseId":"Test Cases/Admin Remove Course Teacher"}
+{"testCaseName":"Test Cases/Admin assign non-edit teacher","testCaseId":"Test Cases/Admin assign non-edit teacher"}
+{"testCaseName":"Test Cases/Admin remove non-edit teacher","testCaseId":"Test Cases/Admin remove non-edit teacher"}

@@ -1,0 +1,261 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Run all test cases,Chrome 97.0.4692.71,,,2022-01-17 09:46:42,2022-01-17 09:54:35,7m - 53.197s,FAILED
+,,,,,,,
+Test Cases/Admin Login,Chrome 97.0.4692.71,,,2022-01-17 09:46:43,2022-01-17 09:46:51,8.526s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 09:46:43,2022-01-17 09:46:46,3.173s,PASSED
+"navigateToUrl(""http://localhost/moodle/login/index.php"")",Chrome 97.0.4692.71,,,2022-01-17 09:46:46,2022-01-17 09:46:48,1.140s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Log in to the site/input_Username_username""), ""admin"")",Chrome 97.0.4692.71,,,2022-01-17 09:46:48,2022-01-17 09:46:49,1.106s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Moodle Log in to the site/input_Password_password""), ""8JanWqnBZBo6yBKKrpSnpw=="")",Chrome 97.0.4692.71,,,2022-01-17 09:46:49,2022-01-17 09:46:49,0.532s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Log in to the site/button_Log in""))",Chrome 97.0.4692.71,,,2022-01-17 09:46:49,2022-01-17 09:46:51,1.979s,PASSED
+,,,,,,,
+Test Cases/Admin Add User,Chrome 97.0.4692.71,,,2022-01-17 09:46:51,2022-01-17 09:47:37,45.963s,PASSED
+"callTestCase(findTestCase(""Admin Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:46:52,2022-01-17 09:46:58,5.990s,PASSED
+"click(findTestObject(""Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-17 09:46:58,2022-01-17 09:47:00,2.580s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Search/a_Users (3)""))",Chrome 97.0.4692.71,,,2022-01-17 09:47:00,2022-01-17 09:47:03,2.255s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Search/a_Add a new user (2)""))",Chrome 97.0.4692.71,,,2022-01-17 09:47:03,2022-01-17 09:47:07,4.139s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Username_username (2)""), ""minhduc"")",Chrome 97.0.4692.71,,,2022-01-17 09:47:07,2022-01-17 09:47:11,3.986s,PASSED
+"click(findTestObject(""Page_Moodle Administration Users Accounts A_0fbd97/a_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-17 09:47:11,2022-01-17 09:47:13,1.941s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_New password_newpassword (2)""), ""8JanWqnBZBo6yBKKrpSnpw=="")",Chrome 97.0.4692.71,,,2022-01-17 09:47:13,2022-01-17 09:47:15,2.091s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_First name_firstname (2)""), ""Đức"")",Chrome 97.0.4692.71,,,2022-01-17 09:47:15,2022-01-17 09:47:19,3.920s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Surname_lastname (2)""), ""Hồ"")",Chrome 97.0.4692.71,,,2022-01-17 09:47:19,2022-01-17 09:47:21,2.296s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Email address_email (2)""), ""hnmduc19@clc.fitus.edu.vn"")",Chrome 97.0.4692.71,,,2022-01-17 09:47:21,2022-01-17 09:47:22,0.825s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/select_Select a country.            Afghani_160506 (2)""), ""VN"", true)",Chrome 97.0.4692.71,,,2022-01-17 09:47:22,2022-01-17 09:47:36,13.746s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Address_submitbutton (2)""))",Chrome 97.0.4692.71,,,2022-01-17 09:47:36,2022-01-17 09:47:37,1.597s,PASSED
+,,,,,,,
+Test Cases/Admin Add Exists User,Chrome 97.0.4692.71,,,2022-01-17 09:47:37,2022-01-17 09:48:04,27.205s,PASSED
+"callTestCase(findTestCase(""Admin Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:47:38,2022-01-17 09:47:43,5.640s,PASSED
+"click(findTestObject(""Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-17 09:47:43,2022-01-17 09:47:46,2.623s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Search/a_Users (3)""))",Chrome 97.0.4692.71,,,2022-01-17 09:47:46,2022-01-17 09:47:46,0.485s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Search/a_Add a new user (2)""))",Chrome 97.0.4692.71,,,2022-01-17 09:47:46,2022-01-17 09:47:49,2.623s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Username_username (2)""), ""minhduc"")",Chrome 97.0.4692.71,,,2022-01-17 09:47:49,2022-01-17 09:47:50,1.082s,PASSED
+"click(findTestObject(""Page_Moodle Administration Users Accounts A_0fbd97/a_Click to enter text""))",Chrome 97.0.4692.71,,,2022-01-17 09:47:50,2022-01-17 09:47:50,0.505s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_New password_newpassword (2)""), ""8JanWqnBZBo6yBKKrpSnpw=="")",Chrome 97.0.4692.71,,,2022-01-17 09:47:50,2022-01-17 09:47:51,0.641s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_First name_firstname (2)""), ""Đức"")",Chrome 97.0.4692.71,,,2022-01-17 09:47:51,2022-01-17 09:47:52,0.837s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Surname_lastname (2)""), ""Hồ"")",Chrome 97.0.4692.71,,,2022-01-17 09:47:52,2022-01-17 09:47:53,1.064s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Email address_email (2)""), ""hongocminhduc@gmail.com"")",Chrome 97.0.4692.71,,,2022-01-17 09:47:53,2022-01-17 09:47:54,0.866s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/select_Select a country.            Afghani_160506 (2)""), ""VN"", true)",Chrome 97.0.4692.71,,,2022-01-17 09:47:54,2022-01-17 09:48:03,8.786s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Address_submitbutton (2)""))",Chrome 97.0.4692.71,,,2022-01-17 09:48:03,2022-01-17 09:48:04,1.673s,PASSED
+,,,,,,,
+Test Cases/Admin Update Profile,Chrome 97.0.4692.71,,,2022-01-17 09:48:04,2022-01-17 09:48:28,24.103s,PASSED
+"callTestCase(findTestCase(""Admin Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:48:05,2022-01-17 09:48:10,5.321s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Search/img_c Minh_userpicture defaultuserpic""))",Chrome 97.0.4692.71,,,2022-01-17 09:48:10,2022-01-17 09:48:12,2.064s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Search/span_Profile""))",Chrome 97.0.4692.71,,,2022-01-17 09:48:12,2022-01-17 09:48:13,1.059s,PASSED
+"click(findTestObject(""Object Repository/Page_c Minh Public profile/a_Edit profile""))",Chrome 97.0.4692.71,,,2022-01-17 09:48:13,2022-01-17 09:48:15,1.620s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Edit profile/div_Surname""))",Chrome 97.0.4692.71,,,2022-01-17 09:48:15,2022-01-17 09:48:16,1.008s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Edit profile/input_Surname_lastname""), ""Hồ"")",Chrome 97.0.4692.71,,,2022-01-17 09:48:16,2022-01-17 09:48:17,1.031s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Edit profile/div_Email address_yui_3_17_2_1_1642339639116_856""))",Chrome 97.0.4692.71,,,2022-01-17 09:48:17,2022-01-17 09:48:17,0.394s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Edit profile/input_Email address_email""), ""hongocminhduc@gmail.com"")",Chrome 97.0.4692.71,,,2022-01-17 09:48:17,2022-01-17 09:48:18,1.046s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Edit profile/select_Select a country.            Afghani_160506""), ""VN"", true)",Chrome 97.0.4692.71,,,2022-01-17 09:48:18,2022-01-17 09:48:27,8.689s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Moodle Edit profile/input_Address_submitbutton""), Keys.chord(ENTER))",Chrome 97.0.4692.71,,,2022-01-17 09:48:27,2022-01-17 09:48:28,1.481s,PASSED
+,,,,,,,
+Test Cases/Admin Create New Category,Chrome 97.0.4692.71,,,2022-01-17 09:48:28,2022-01-17 09:48:42,13.923s,PASSED
+"callTestCase(findTestCase(""Admin Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:48:29,2022-01-17 09:48:34,5.510s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration (2)""))",Chrome 97.0.4692.71,,,2022-01-17 09:48:34,2022-01-17 09:48:37,2.950s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Search/a_Courses""))",Chrome 97.0.4692.71,,,2022-01-17 09:48:37,2022-01-17 09:48:38,0.492s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Search/a_Add a category""))",Chrome 97.0.4692.71,,,2022-01-17 09:48:38,2022-01-17 09:48:39,1.365s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Add new category/input_Category name_name""), ""New Category"")",Chrome 97.0.4692.71,,,2022-01-17 09:48:39,2022-01-17 09:48:41,1.257s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Add new category/input_Description_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-17 09:48:41,2022-01-17 09:48:42,1.865s,PASSED
+,,,,,,,
+Test Cases/Admin Add Child Category,Chrome 97.0.4692.71,,,2022-01-17 09:48:42,2022-01-17 09:48:59,16.585s,PASSED
+"callTestCase(findTestCase(""Admin Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:48:43,2022-01-17 09:48:48,5.518s,PASSED
+"click(findTestObject(""Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-17 09:48:48,2022-01-17 09:48:51,2.929s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Search/a_Courses (1)""))",Chrome 97.0.4692.71,,,2022-01-17 09:48:51,2022-01-17 09:48:52,0.478s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Search/a_Add a category (1)""))",Chrome 97.0.4692.71,,,2022-01-17 09:48:52,2022-01-17 09:48:53,1.388s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Add new category/span_""))",Chrome 97.0.4692.71,,,2022-01-17 09:48:53,2022-01-17 09:48:54,0.948s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Add new category/li_New Category""))",Chrome 97.0.4692.71,,,2022-01-17 09:48:54,2022-01-17 09:48:55,0.574s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Add new category/select_Top            Miscellaneous        _183c6c""), ""2"", true)",Chrome 97.0.4692.71,,,2022-01-17 09:48:55,2022-01-17 09:48:56,1.710s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Add new category/input_Category name_name (1)""), ""Child Category"")",Chrome 97.0.4692.71,,,2022-01-17 09:48:56,2022-01-17 09:48:57,0.689s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Add new category/input_Description_submitbutton (1)""))",Chrome 97.0.4692.71,,,2022-01-17 09:48:57,2022-01-17 09:48:59,2.024s,PASSED
+,,,,,,,
+Test Cases/Admin Add New Course,Chrome 97.0.4692.71,,,2022-01-17 09:48:59,2022-01-17 09:49:14,14.801s,PASSED
+"callTestCase(findTestCase(""Admin Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:48:59,2022-01-17 09:49:05,5.614s,PASSED
+"click(findTestObject(""Page_Dashboard/span_Site administration""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:05,2022-01-17 09:49:08,3.001s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Search/a_Courses (2)""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:08,2022-01-17 09:49:08,0.491s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Search/a_Add a new course""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:08,2022-01-17 09:49:10,1.552s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Add a new course/input_Course full name_fullname (1)""), ""New Course"")",Chrome 97.0.4692.71,,,2022-01-17 09:49:10,2022-01-17 09:49:11,1.295s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Add a new course/input_Course short name_shortname (1)""), ""New Course"")",Chrome 97.0.4692.71,,,2022-01-17 09:49:11,2022-01-17 09:49:12,0.799s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Add a new course/input__saveanddisplay""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:12,2022-01-17 09:49:14,1.705s,PASSED
+,,,,,,,
+Test Cases/Admin_Switch_Role,Chrome 97.0.4692.71,,,2022-01-17 09:49:14,2022-01-17 09:49:18,3.848s,PASSED
+"click(findTestObject(""Page_Moodle Add an announcement/Page_Dashboard/a_Admin User""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:14,2022-01-17 09:49:15,0.742s,PASSED
+"click(findTestObject(""Page_Moodle Add an announcement/Page_Dashboard/span_Switch role to""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:15,2022-01-17 09:49:16,1.087s,PASSED
+"click(findTestObject(""Page_Moodle Add an announcement/Page_Switch role to/button_Teacher""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:16,2022-01-17 09:49:18,1.618s,PASSED
+,,,,,,,
+Test Cases/Teacher_Add_NewAnnouncement,Chrome 97.0.4692.71,,,2022-01-17 09:49:18,2022-01-17 09:49:18,0.327s,PASSED
+return null,Chrome 97.0.4692.71,,,2022-01-17 09:49:18,2022-01-17 09:49:18,0.000s,PASSED
+,,,,,,,
+Test Cases/Admin Edit Courses Name,Chrome 97.0.4692.71,,,2022-01-17 09:49:18,2022-01-17 09:49:32,14.279s,PASSED
+"callTestCase(findTestCase(""Admin Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:49:18,2022-01-17 09:49:24,5.400s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home (1)""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:24,2022-01-17 09:49:26,2.501s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle/a_New Course""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:26,2022-01-17 09:49:27,1.084s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course/i_New Course_icon fa fa-cog fa-fw""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:27,2022-01-17 09:49:28,0.550s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course/a_Edit settings""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:28,2022-01-17 09:49:29,1.431s,PASSED
+"setText(findTestObject(""Object Repository/Page_Edit course settings/input_Course full name_fullname""), ""New Course Edited"")",Chrome 97.0.4692.71,,,2022-01-17 09:49:29,2022-01-17 09:49:31,1.513s,PASSED
+"click(findTestObject(""Object Repository/Page_Edit course settings/input__saveanddisplay""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:31,2022-01-17 09:49:32,1.542s,PASSED
+,,,,,,,
+Test Cases/Admin Assign Manager,Chrome 97.0.4692.71,,,2022-01-17 09:49:32,2022-01-17 09:49:48,15.473s,PASSED
+"callTestCase(findTestCase(""Admin Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:49:33,2022-01-17 09:49:38,5.581s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration (8)""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:38,2022-01-17 09:49:41,2.964s,PASSED
+"click(findTestObject(""Page_Moodle Administration Search/a_Users (6)""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:41,2022-01-17 09:49:42,0.476s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Search/a_Assign system roles""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:42,2022-01-17 09:49:43,1.149s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Manager""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:43,2022-01-17 09:49:44,1.194s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Administration Users Permission_6fdc16/select_c H (hongocminhducgmail.com)    c H _8cfc97""), ""2"", true)",Chrome 97.0.4692.71,,,2022-01-17 09:49:44,2022-01-17 09:49:45,1.172s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Users Permission_6fdc16/input_Match the search text anywhere in the_89f7b5""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:45,2022-01-17 09:49:47,1.452s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Back to the list of all roles""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:47,2022-01-17 09:49:48,1.178s,PASSED
+,,,,,,,
+Test Cases/Admin Remove Manager,Chrome 97.0.4692.71,,,2022-01-17 09:49:48,2022-01-17 09:50:03,15.145s,PASSED
+"callTestCase(findTestCase(""Admin Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:49:48,2022-01-17 09:49:54,5.501s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration (9)""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:54,2022-01-17 09:49:56,2.871s,PASSED
+"click(findTestObject(""Page_Moodle Administration Search/a_Users (6)""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:56,2022-01-17 09:49:57,0.488s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Search/a_Assign system roles (1)""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:57,2022-01-17 09:49:58,1.109s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Manager (1)""))",Chrome 97.0.4692.71,,,2022-01-17 09:49:58,2022-01-17 09:49:59,1.189s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Administration Users Permission_6fdc16/select_c H (hongocminhducgmail.com)""), ""2"", true)",Chrome 97.0.4692.71,,,2022-01-17 09:49:59,2022-01-17 09:50:00,1.048s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Users Permission_6fdc16/input_Match the search text anywhere in the_31d039""))",Chrome 97.0.4692.71,,,2022-01-17 09:50:00,2022-01-17 09:50:02,1.400s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Back to the list of all roles (1)""))",Chrome 97.0.4692.71,,,2022-01-17 09:50:02,2022-01-17 09:50:03,1.192s,PASSED
+,,,,,,,
+Test Cases/Admin Assign Course Creator,Chrome 97.0.4692.71,,,2022-01-17 09:50:03,2022-01-17 09:50:18,15.388s,PASSED
+"callTestCase(findTestCase(""Admin Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:50:03,2022-01-17 09:50:09,5.531s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration (10)""))",Chrome 97.0.4692.71,,,2022-01-17 09:50:09,2022-01-17 09:50:12,2.935s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Search/a_Users (6)""))",Chrome 97.0.4692.71,,,2022-01-17 09:50:12,2022-01-17 09:50:12,0.468s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Search/a_Assign system roles (2)""))",Chrome 97.0.4692.71,,,2022-01-17 09:50:12,2022-01-17 09:50:13,1.157s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Course creator""))",Chrome 97.0.4692.71,,,2022-01-17 09:50:13,2022-01-17 09:50:15,1.199s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Administration Users Permission_6fdc16/select_c H (hongocminhducgmail.com)    c H _8cfc97 (1)""), ""2"", true)",Chrome 97.0.4692.71,,,2022-01-17 09:50:15,2022-01-17 09:50:16,1.158s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Users Permission_6fdc16/input_Match the search text anywhere in the_89f7b5 (1)""))",Chrome 97.0.4692.71,,,2022-01-17 09:50:16,2022-01-17 09:50:17,1.422s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Back to the list of all roles (2)""))",Chrome 97.0.4692.71,,,2022-01-17 09:50:17,2022-01-17 09:50:18,1.187s,PASSED
+,,,,,,,
+Test Cases/Admin Remove Course Creator,Chrome 97.0.4692.71,,,2022-01-17 09:50:18,2022-01-17 09:50:26,7.794s,FAILED
+"callTestCase(findTestCase(""Admin Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:50:19,2022-01-17 09:50:24,5.445s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site administration (11)""))",Chrome 97.0.4692.71,,,2022-01-17 09:50:24,2022-01-17 09:50:26,2.034s,FAILED
+,,,,,,,
+Test Cases/Admin Enroll Student,Chrome 97.0.4692.71,,,2022-01-17 09:50:26,2022-01-17 09:50:34,7.897s,FAILED
+"callTestCase(findTestCase(""Admin Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:50:26,2022-01-17 09:50:32,5.460s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home (3)""))",Chrome 97.0.4692.71,,,2022-01-17 09:50:32,2022-01-17 09:50:34,2.152s,FAILED
+,,,,,,,
+Test Cases/Admin Unenroll Student,Chrome 97.0.4692.71,,,2022-01-17 09:50:34,2022-01-17 09:50:42,7.957s,FAILED
+"callTestCase(findTestCase(""Admin Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:50:34,2022-01-17 09:50:40,5.542s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home (2)""))",Chrome 97.0.4692.71,,,2022-01-17 09:50:40,2022-01-17 09:50:42,2.027s,FAILED
+,,,,,,,
+Test Cases/Admin Assign Course Teacher,Chrome 97.0.4692.71,,,2022-01-17 09:50:42,2022-01-17 09:50:50,7.639s,FAILED
+"callTestCase(findTestCase(""Admin Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:50:42,2022-01-17 09:50:48,5.364s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home (5)""))",Chrome 97.0.4692.71,,,2022-01-17 09:50:48,2022-01-17 09:50:50,1.981s,FAILED
+,,,,,,,
+Test Cases/Admin Remove Course Teacher,Chrome 97.0.4692.71,,,2022-01-17 09:50:50,2022-01-17 09:51:05,15.172s,FAILED
+"callTestCase(findTestCase(""Admin Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:50:50,2022-01-17 09:50:55,5.430s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home (5)""))",Chrome 97.0.4692.71,,,2022-01-17 09:50:55,2022-01-17 09:50:58,2.527s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle/a_New Course Edited (4)""))",Chrome 97.0.4692.71,,,2022-01-17 09:50:58,2022-01-17 09:50:59,1.039s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (4)""))",Chrome 97.0.4692.71,,,2022-01-17 09:50:59,2022-01-17 09:50:59,0.473s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course Edited/a_More (4)""))",Chrome 97.0.4692.71,,,2022-01-17 09:50:59,2022-01-17 09:51:00,0.960s,PASSED
+"click(findTestObject(""Object Repository/Page_Course administration/a_Users (4)""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:00,2022-01-17 09:51:01,0.461s,PASSED
+"click(findTestObject(""Object Repository/Page_Course administration/a_Other users""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:01,2022-01-17 09:51:02,1.016s,PASSED
+"click(findTestObject(""Object Repository/Page_New Course Edited 0 other users/button_Assign roles""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:02,2022-01-17 09:51:03,1.015s,PASSED
+"click(findTestObject(""Object Repository/Page_Assign roles in Course New Course Edited/a_Teacher""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:03,2022-01-17 09:51:04,1.027s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/select_c H (hongocminhducgmail.com)""), ""2"", true)",Chrome 97.0.4692.71,,,2022-01-17 09:51:04,2022-01-17 09:51:05,0.890s,FAILED
+,,,,,,,
+Test Cases/Admin assign non-edit teacher,Chrome 97.0.4692.71,,,2022-01-17 09:51:05,2022-01-17 09:51:22,17.641s,PASSED
+"callTestCase(findTestCase(""Admin Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:51:05,2022-01-17 09:51:11,5.451s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home (5)""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:11,2022-01-17 09:51:13,2.385s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle/a_New Course Edited (4)""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:13,2022-01-17 09:51:14,1.079s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (4)""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:14,2022-01-17 09:51:14,0.512s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course Edited/a_More (4)""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:14,2022-01-17 09:51:15,0.997s,PASSED
+"click(findTestObject(""Object Repository/Page_Course administration/a_Users (4)""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:15,2022-01-17 09:51:16,0.470s,PASSED
+"click(findTestObject(""Object Repository/Page_Course administration/a_Other users""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:16,2022-01-17 09:51:17,1.073s,PASSED
+"click(findTestObject(""Object Repository/Page_New Course Edited 0 other users/button_Assign roles""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:17,2022-01-17 09:51:18,1.006s,PASSED
+"click(findTestObject(""Page_Course New Course Edited/a_non_edit""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:18,2022-01-17 09:51:19,1.049s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/select_c H (hongocminhducgmail.com)    c H _8cfc97""), ""2"", true)",Chrome 97.0.4692.71,,,2022-01-17 09:51:19,2022-01-17 09:51:20,1.137s,PASSED
+"click(findTestObject(""Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/input_Match the search text anywhere in the_89f7b5""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:20,2022-01-17 09:51:21,1.177s,PASSED
+"click(findTestObject(""Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/a_Back to the list of all roles""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:21,2022-01-17 09:51:22,0.993s,PASSED
+,,,,,,,
+Test Cases/Admin remove non-edit teacher,Chrome 97.0.4692.71,,,2022-01-17 09:51:22,2022-01-17 09:52:05,42.185s,PASSED
+"callTestCase(findTestCase(""Admin Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:51:23,2022-01-17 09:51:28,5.468s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home (5)""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:28,2022-01-17 09:51:31,2.628s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle/a_New Course Edited (4)""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:31,2022-01-17 09:51:32,1.094s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (4)""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:32,2022-01-17 09:51:57,24.529s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course Edited/a_More (4)""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:57,2022-01-17 09:51:58,1.062s,PASSED
+"click(findTestObject(""Object Repository/Page_Course administration/a_Users (4)""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:58,2022-01-17 09:51:58,0.488s,PASSED
+"click(findTestObject(""Object Repository/Page_Course administration/a_Other users""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:58,2022-01-17 09:51:59,1.093s,PASSED
+"click(findTestObject(""Object Repository/Page_New Course Edited 0 other users/button_Assign roles""))",Chrome 97.0.4692.71,,,2022-01-17 09:51:59,2022-01-17 09:52:00,0.961s,PASSED
+"click(findTestObject(""Page_Course New Course Edited/a_non_edit""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:00,2022-01-17 09:52:01,1.026s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/select_c H (hongocminhducgmail.com)""), ""2"", true)",Chrome 97.0.4692.71,,,2022-01-17 09:52:01,2022-01-17 09:52:03,2.219s,PASSED
+"click(findTestObject(""Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/input_Match the search text anywhere in the_31d039""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:03,2022-01-17 09:52:05,1.236s,PASSED
+,,,,,,,
+Test Cases/Student Login,Chrome 97.0.4692.71,,,2022-01-17 09:52:05,2022-01-17 09:52:11,6.241s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 09:52:05,2022-01-17 09:52:07,1.908s,PASSED
+"navigateToUrl(""http://localhost/moodle/login/index.php"")",Chrome 97.0.4692.71,,,2022-01-17 09:52:07,2022-01-17 09:52:07,0.554s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Log in to the site/input_Username_username (21)""), ""minhduc"")",Chrome 97.0.4692.71,,,2022-01-17 09:52:07,2022-01-17 09:52:08,0.917s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Log in to the site/form_document.getElementById(anchor).value _70e5d4""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:08,2022-01-17 09:52:09,0.395s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Moodle Log in to the site/input_Password_password (21)""), ""8JanWqnBZBo6yBKKrpSnpw=="")",Chrome 97.0.4692.71,,,2022-01-17 09:52:09,2022-01-17 09:52:09,0.530s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Log in to the site/button_Log in (14)""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:09,2022-01-17 09:52:11,1.617s,PASSED
+,,,,,,,
+Test Cases/Student View Grades,Chrome 97.0.4692.71,,,2022-01-17 09:52:11,2022-01-17 09:52:22,11.534s,PASSED
+"callTestCase(findTestCase(""Student Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:52:11,2022-01-17 09:52:17,6.104s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home (7)""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:17,2022-01-17 09:52:20,2.463s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle/a_New Course Edited (6)""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:20,2022-01-17 09:52:21,1.030s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course Edited/span_Grades""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:21,2022-01-17 09:52:22,1.460s,PASSED
+,,,,,,,
+Test Cases/Student Add New Discussion Topic,Chrome 97.0.4692.71,,,2022-01-17 09:52:22,2022-01-17 09:52:40,17.849s,PASSED
+"callTestCase(findTestCase(""Student Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:52:23,2022-01-17 09:52:29,5.881s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home (8)""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:29,2022-01-17 09:52:31,2.423s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle/a_New Course Edited (7)""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:31,2022-01-17 09:52:32,1.016s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course Edited/span_New Forum""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:32,2022-01-17 09:52:34,1.628s,PASSED
+"click(findTestObject(""Object Repository/Page_New Forum/a_Add a new discussion topic""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:34,2022-01-17 09:52:35,0.956s,PASSED
+"setText(findTestObject(""Object Repository/Page_New Forum/input_Subject_subject""), ""New discussion topic"")",Chrome 97.0.4692.71,,,2022-01-17 09:52:35,2022-01-17 09:52:35,0.794s,PASSED
+"click(findTestObject(""Object Repository/Page_New Forum/div_Subject""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:35,2022-01-17 09:52:36,0.453s,PASSED
+"setText(findTestObject(""Object Repository/Page_New Forum/input_Subject_subject""), ""New discussion topic"")",Chrome 97.0.4692.71,,,2022-01-17 09:52:36,2022-01-17 09:52:37,0.896s,PASSED
+"click(findTestObject(""Object Repository/Page_New Forum/p""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:37,2022-01-17 09:52:37,0.355s,PASSED
+"setText(findTestObject(""Object Repository/Page_New Forum/div_New discussion topic""), ""<p dir=""ltr"" style=""text-align: left; outline: rgb(255, 0, 0) solid 2px;"" id=""yui_3_17_2_1_1642383176173_510""><span style=""font-size: 14.9262px;"">New discussion topic</span><br></p>"")",Chrome 97.0.4692.71,,,2022-01-17 09:52:37,2022-01-17 09:52:38,1.362s,PASSED
+"click(findTestObject(""Object Repository/Page_New Forum/input_New discussion topic_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:38,2022-01-17 09:52:40,1.735s,PASSED
+,,,,,,,
+Test Cases/Student Reply A Discussion Topic,Chrome 97.0.4692.71,,,2022-01-17 09:52:40,2022-01-17 09:53:12,31.708s,PASSED
+"callTestCase(findTestCase(""Student Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:52:41,2022-01-17 09:52:47,5.966s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home (9)""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:47,2022-01-17 09:52:49,2.403s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle/a_New Course Edited (8)""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:49,2022-01-17 09:52:50,1.049s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course Edited/span_New Forum (1)""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:50,2022-01-17 09:52:52,1.641s,PASSED
+"click(findTestObject(""Object Repository/Page_New Forum/a_New discussion topic""))",Chrome 97.0.4692.71,,,2022-01-17 09:52:52,2022-01-17 09:53:10,17.999s,PASSED
+"click(findTestObject(""Object Repository/Page_New Course New discussion topic/a_Reply""))",Chrome 97.0.4692.71,,,2022-01-17 09:53:10,2022-01-17 09:53:10,0.480s,PASSED
+"setText(findTestObject(""Object Repository/Page_New Course New discussion topic/textarea_Reply_post""), ""Reply topic"")",Chrome 97.0.4692.71,,,2022-01-17 09:53:10,2022-01-17 09:53:12,1.483s,PASSED
+"click(findTestObject(""Object Repository/Page_New Course New discussion topic/span_Post to forum""))",Chrome 97.0.4692.71,,,2022-01-17 09:53:12,2022-01-17 09:53:12,0.368s,PASSED
+,,,,,,,
+Test Cases/Student Attempt Quiz,Chrome 97.0.4692.71,,,2022-01-17 09:53:12,2022-01-17 09:53:25,13.477s,PASSED
+"callTestCase(findTestCase(""Student Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:53:12,2022-01-17 09:53:18,5.876s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home (10)""))",Chrome 97.0.4692.71,,,2022-01-17 09:53:18,2022-01-17 09:53:21,2.356s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle/a_New Course Edited (9)""))",Chrome 97.0.4692.71,,,2022-01-17 09:53:21,2022-01-17 09:53:22,1.042s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course Edited/span_New Quiz""))",Chrome 97.0.4692.71,,,2022-01-17 09:53:22,2022-01-17 09:53:24,2.495s,PASSED
+"click(findTestObject(""Object Repository/Page_New Course New Quiz/button_Attempt quiz now""))",Chrome 97.0.4692.71,,,2022-01-17 09:53:24,2022-01-17 09:53:25,1.331s,PASSED
+,,,,,,,
+Test Cases/Student Enter Chat Room,Chrome 97.0.4692.71,,,2022-01-17 09:53:25,2022-01-17 09:53:38,13.015s,PASSED
+"callTestCase(findTestCase(""Student Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:53:26,2022-01-17 09:53:32,6.103s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home (11)""))",Chrome 97.0.4692.71,,,2022-01-17 09:53:32,2022-01-17 09:53:34,2.408s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle/a_New Course Edited (10)""))",Chrome 97.0.4692.71,,,2022-01-17 09:53:34,2022-01-17 09:53:35,1.013s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course Edited/span_Chat Room""))",Chrome 97.0.4692.71,,,2022-01-17 09:53:35,2022-01-17 09:53:37,1.299s,PASSED
+"click(findTestObject(""Object Repository/Page_New Course Chat Room/a_Click here to enter the chat now""))",Chrome 97.0.4692.71,,,2022-01-17 09:53:37,2022-01-17 09:53:37,0.771s,PASSED
+"switchToWindowTitle(""New Course: Chat Room"")",Chrome 97.0.4692.71,,,2022-01-17 09:53:37,2022-01-17 09:53:37,0.053s,PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-17 09:53:37,2022-01-17 09:53:38,1.023s,PASSED
+,,,,,,,
+Test Cases/Student Mark As Done,Chrome 97.0.4692.71,,,2022-01-17 09:53:38,2022-01-17 09:53:50,11.429s,PASSED
+"callTestCase(findTestCase(""Student Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:53:39,2022-01-17 09:53:45,5.824s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home (12)""))",Chrome 97.0.4692.71,,,2022-01-17 09:53:45,2022-01-17 09:53:47,2.402s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle/a_New Course Edited (11)""))",Chrome 97.0.4692.71,,,2022-01-17 09:53:47,2022-01-17 09:53:48,0.965s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course Edited/button_Mark as done""))",Chrome 97.0.4692.71,,,2022-01-17 09:53:48,2022-01-17 09:53:49,0.805s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course Edited/button_Mark as done_1""))",Chrome 97.0.4692.71,,,2022-01-17 09:53:49,2022-01-17 09:53:50,1.140s,PASSED
+,,,,,,,
+Test Cases/Student Submit Assignment,Chrome 97.0.4692.71,,,2022-01-17 09:53:50,2022-01-17 09:54:12,22.391s,PASSED
+"callTestCase(findTestCase(""Student Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:53:50,2022-01-17 09:53:56,5.918s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home (13)""))",Chrome 97.0.4692.71,,,2022-01-17 09:53:56,2022-01-17 09:53:59,2.396s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle/a_New Course Edited (12)""))",Chrome 97.0.4692.71,,,2022-01-17 09:53:59,2022-01-17 09:54:00,0.999s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course Edited/span_New Assignment""))",Chrome 97.0.4692.71,,,2022-01-17 09:54:00,2022-01-17 09:54:01,1.448s,PASSED
+"click(findTestObject(""Object Repository/Page_New Course New Assignment/button_Add submission""))",Chrome 97.0.4692.71,,,2022-01-17 09:54:01,2022-01-17 09:54:02,1.302s,PASSED
+delay(5),Chrome 97.0.4692.71,,,2022-01-17 09:54:02,2022-01-17 09:54:07,5.008s,PASSED
+"click(findTestObject(""Object Repository/Page_New Course New Assignment - Edit submission/input_Loading_submitbutton""))",Chrome 97.0.4692.71,,,2022-01-17 09:54:07,2022-01-17 09:54:12,4.946s,PASSED
+,,,,,,,
+Test Cases/Student Submit Late,Chrome 97.0.4692.71,,,2022-01-17 09:54:12,2022-01-17 09:54:24,11.728s,PASSED
+"callTestCase(findTestCase(""Student Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:54:13,2022-01-17 09:54:18,5.890s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home (15)""))",Chrome 97.0.4692.71,,,2022-01-17 09:54:18,2022-01-17 09:54:21,2.374s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle/a_New Course Edited (14)""))",Chrome 97.0.4692.71,,,2022-01-17 09:54:21,2022-01-17 09:54:22,1.016s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course Edited/span_Late Assignment""))",Chrome 97.0.4692.71,,,2022-01-17 09:54:22,2022-01-17 09:54:23,1.428s,PASSED
+"click(findTestObject(""Object Repository/Page_New Course Late Assignment/div_Submission statusNo attemptGrading stat_59d06a""))",Chrome 97.0.4692.71,,,2022-01-17 09:54:23,2022-01-17 09:54:24,0.708s,PASSED
+,,,,,,,
+Test Cases/Student View Calendar,Chrome 97.0.4692.71,,,2022-01-17 09:54:24,2022-01-17 09:54:35,11.479s,PASSED
+"callTestCase(findTestCase(""Student Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 09:54:24,2022-01-17 09:54:30,6.062s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/span_Site home (16)""))",Chrome 97.0.4692.71,,,2022-01-17 09:54:30,2022-01-17 09:54:33,2.615s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle/a_New Course Edited (15)""))",Chrome 97.0.4692.71,,,2022-01-17 09:54:33,2022-01-17 09:54:34,1.079s,PASSED
+"click(findTestObject(""Object Repository/Page_Course New Course Edited/span_Calendar""))",Chrome 97.0.4692.71,,,2022-01-17 09:54:34,2022-01-17 09:54:35,1.431s,PASSED

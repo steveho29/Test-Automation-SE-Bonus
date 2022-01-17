@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Run all test cases" time="313.458" tests="20" failures="0" errors="0">
+   <testsuite name="Run all test cases" tests="20" failures="0" errors="0" time="313.458" skipped="0" timestamp="2022-01-17 07:16:27" hostname="Minh Duc - 192.168.3.10" id="Test Suites/Run all test cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Minh Duc\\Desktop\\Test-Automation-SE-Bonus\\Test Automation - SE Bonus\\Reports\\20220117_071620\\Run all test cases\\20220117_071620"/>
+         <property name="logFiles" value="C:\\Users\\Minh Duc\\Desktop\\Test-Automation-SE-Bonus\\Test Automation - SE Bonus\\Reports\\20220117_071620\\Run all test cases\\20220117_071620\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Minh Duc - 192.168.3.10"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="192.168.3.10"/>
+         <property name="sessionId" value="b9b39e3e4eec19e4fd4320e2d810e96d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin Login" time="6.189" classname="Test Cases/Admin Login" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:16:27 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:16:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:16:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:16:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:16:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:16:29 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:16:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:16:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:16:31 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:16:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:16:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:16:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Add User" time="28.212" classname="Test Cases/Admin Add User" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:16:33 - [TEST_CASE][PASSED] - Test Cases/Admin Add User: Test Cases/Admin Add User
+
+2022-01-17 07:16:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:16:34 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:16:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:16:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 07:16:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:16:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:16:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:16:36 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:16:36 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:16:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:16:37 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:16:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:16:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:16:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:16:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:16:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard/span_Site administration")): Object: 'Object Repository/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-17 07:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-17 07:16:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/a_Users (3)")): Object: 'Object Repository/Page_Moodle Administration Search/a_Users (3)' is clicked on
+
+2022-01-17 07:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Users (3)' is clicked on
+
+2022-01-17 07:16:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/a_Add a new user (2)")): Object: 'Object Repository/Page_Moodle Administration Search/a_Add a new user (2)' is clicked on
+
+2022-01-17 07:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Add a new user (2)' is clicked on
+
+2022-01-17 07:16:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Username_username (2)"), "minhduc"): Text 'minhduc' is set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Username_username (2)'
+
+2022-01-17 07:16:47 - [MESSAGE][PASSED] - Text 'minhduc' is set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Username_username (2)'
+
+2022-01-17 07:16:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Moodle Administration Users Accounts A_0fbd97/a_Click to enter text")): Object: 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/a_Click to enter text' is clicked on
+
+2022-01-17 07:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/a_Click to enter text' is clicked on
+
+2022-01-17 07:16:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_New password_newpassword (2)"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_New password_newpassword (2)'
+
+2022-01-17 07:16:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_New password_newpassword (2)'
+
+2022-01-17 07:16:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_First name_firstname (2)"), "Đức"): Text 'Đức' is set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_First name_firstname (2)'
+
+2022-01-17 07:16:49 - [MESSAGE][PASSED] - Text 'Đức' is set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_First name_firstname (2)'
+
+2022-01-17 07:16:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Surname_lastname (2)"), "Hồ"): Text 'Hồ' is set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Surname_lastname (2)'
+
+2022-01-17 07:16:50 - [MESSAGE][PASSED] - Text 'Hồ' is set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Surname_lastname (2)'
+
+2022-01-17 07:16:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Email address_email (2)"), "hongocminhduc@gmail.com"): Text 'hongocminhduc@gmail.com' is set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Email address_email (2)'
+
+2022-01-17 07:16:51 - [MESSAGE][PASSED] - Text 'hongocminhduc@gmail.com' is set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Email address_email (2)'
+
+2022-01-17 07:16:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/select_Select a country.            Afghani_160506 (2)"), "VN", true): All options with value 'VN' are selected in object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/select_Select a country.            Afghani_160506 (2)'  using regular expression
+
+2022-01-17 07:17:00 - [MESSAGE][PASSED] - All options with value 'VN' are selected in object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/select_Select a country.            Afghani_160506 (2)'  using regular expression
+
+2022-01-17 07:17:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Address_submitbutton (2)")): Object: 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Address_submitbutton (2)' is clicked on
+
+2022-01-17 07:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Address_submitbutton (2)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Add Exists User" time="27.398" classname="Test Cases/Admin Add Exists User" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:17:01 - [TEST_CASE][PASSED] - Test Cases/Admin Add Exists User: Test Cases/Admin Add Exists User
+
+2022-01-17 07:17:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:17:02 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:17:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:17:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 07:17:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:17:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:17:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:17:04 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:17:04 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:17:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:17:05 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:17:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:17:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:17:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:17:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:17:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard/span_Site administration")): Object: 'Object Repository/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-17 07:17:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-17 07:17:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/a_Users (3)")): Object: 'Object Repository/Page_Moodle Administration Search/a_Users (3)' is clicked on
+
+2022-01-17 07:17:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Users (3)' is clicked on
+
+2022-01-17 07:17:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/a_Add a new user (2)")): Object: 'Object Repository/Page_Moodle Administration Search/a_Add a new user (2)' is clicked on
+
+2022-01-17 07:17:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Add a new user (2)' is clicked on
+
+2022-01-17 07:17:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Username_username (2)"), "minhduc"): Text 'minhduc' is set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Username_username (2)'
+
+2022-01-17 07:17:13 - [MESSAGE][PASSED] - Text 'minhduc' is set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Username_username (2)'
+
+2022-01-17 07:17:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_Moodle Administration Users Accounts A_0fbd97/a_Click to enter text")): Object: 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/a_Click to enter text' is clicked on
+
+2022-01-17 07:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/a_Click to enter text' is clicked on
+
+2022-01-17 07:17:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_New password_newpassword (2)"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_New password_newpassword (2)'
+
+2022-01-17 07:17:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_New password_newpassword (2)'
+
+2022-01-17 07:17:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_First name_firstname (2)"), "Đức"): Text 'Đức' is set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_First name_firstname (2)'
+
+2022-01-17 07:17:15 - [MESSAGE][PASSED] - Text 'Đức' is set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_First name_firstname (2)'
+
+2022-01-17 07:17:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Surname_lastname (2)"), "Hồ"): Text 'Hồ' is set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Surname_lastname (2)'
+
+2022-01-17 07:17:16 - [MESSAGE][PASSED] - Text 'Hồ' is set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Surname_lastname (2)'
+
+2022-01-17 07:17:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Email address_email (2)"), "hongocminhduc@gmail.com"): Text 'hongocminhduc@gmail.com' is set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Email address_email (2)'
+
+2022-01-17 07:17:17 - [MESSAGE][PASSED] - Text 'hongocminhduc@gmail.com' is set on object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Email address_email (2)'
+
+2022-01-17 07:17:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/select_Select a country.            Afghani_160506 (2)"), "VN", true): All options with value 'VN' are selected in object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/select_Select a country.            Afghani_160506 (2)'  using regular expression
+
+2022-01-17 07:17:26 - [MESSAGE][PASSED] - All options with value 'VN' are selected in object 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/select_Select a country.            Afghani_160506 (2)'  using regular expression
+
+2022-01-17 07:17:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Address_submitbutton (2)")): Object: 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Address_submitbutton (2)' is clicked on
+
+2022-01-17 07:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/input_Address_submitbutton (2)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Update Profile" time="26.831" classname="Test Cases/Admin Update Profile" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:17:29 - [TEST_CASE][PASSED] - Test Cases/Admin Update Profile: Test Cases/Admin Update Profile
+
+2022-01-17 07:17:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:17:30 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:17:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:17:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 07:17:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:17:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:17:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:17:33 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:17:34 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:17:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:17:35 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:17:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:17:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:17:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:17:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:17:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/img_c Minh_userpicture defaultuserpic")): Object: 'Object Repository/Page_Moodle Administration Search/img_c Minh_userpicture defaultuserpic' is clicked on
+
+2022-01-17 07:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/img_c Minh_userpicture defaultuserpic' is clicked on
+
+2022-01-17 07:17:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/span_Profile")): Object: 'Object Repository/Page_Moodle Administration Search/span_Profile' is clicked on
+
+2022-01-17 07:17:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/span_Profile' is clicked on
+
+2022-01-17 07:17:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_c Minh Public profile/a_Edit profile")): Object: 'Object Repository/Page_c Minh Public profile/a_Edit profile' is clicked on
+
+2022-01-17 07:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_c Minh Public profile/a_Edit profile' is clicked on
+
+2022-01-17 07:17:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Edit profile/div_Surname")): Object: 'Object Repository/Page_Moodle Edit profile/div_Surname' is clicked on
+
+2022-01-17 07:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Edit profile/div_Surname' is clicked on
+
+2022-01-17 07:17:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Edit profile/input_Surname_lastname"), "Hồ"): Text 'Hồ' is set on object 'Object Repository/Page_Moodle Edit profile/input_Surname_lastname'
+
+2022-01-17 07:17:44 - [MESSAGE][PASSED] - Text 'Hồ' is set on object 'Object Repository/Page_Moodle Edit profile/input_Surname_lastname'
+
+2022-01-17 07:17:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Edit profile/div_Email address_yui_3_17_2_1_1642339639116_856")): Object: 'Object Repository/Page_Moodle Edit profile/div_Email address_yui_3_17_2_1_1642339639116_856' is clicked on
+
+2022-01-17 07:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Edit profile/div_Email address_yui_3_17_2_1_1642339639116_856' is clicked on
+
+2022-01-17 07:17:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Edit profile/input_Email address_email"), "hongocminhduc@gmail.com"): Text 'hongocminhduc@gmail.com' is set on object 'Object Repository/Page_Moodle Edit profile/input_Email address_email'
+
+2022-01-17 07:17:46 - [MESSAGE][PASSED] - Text 'hongocminhduc@gmail.com' is set on object 'Object Repository/Page_Moodle Edit profile/input_Email address_email'
+
+2022-01-17 07:17:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Moodle Edit profile/select_Select a country.            Afghani_160506"), "VN", true): All options with value 'VN' are selected in object 'Object Repository/Page_Moodle Edit profile/select_Select a country.            Afghani_160506'  using regular expression
+
+2022-01-17 07:17:54 - [MESSAGE][PASSED] - All options with value 'VN' are selected in object 'Object Repository/Page_Moodle Edit profile/select_Select a country.            Afghani_160506'  using regular expression
+
+2022-01-17 07:17:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Moodle Edit profile/input_Address_submitbutton"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Moodle Edit profile/input_Address_submitbutton'
+
+2022-01-17 07:17:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Moodle Edit profile/input_Address_submitbutton']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Create New Category" time="15.994" classname="Test Cases/Admin Create New Category" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:17:56 - [TEST_CASE][PASSED] - Test Cases/Admin Create New Category: Test Cases/Admin Create New Category
+
+2022-01-17 07:17:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:17:56 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:17:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:17:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 07:17:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:17:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:17:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:17:58 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:17:58 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:17:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:17:59 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:17:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:18:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:18:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:18:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:18:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Site administration (2)")): Object: 'Object Repository/Page_Dashboard/span_Site administration (2)' is clicked on
+
+2022-01-17 07:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site administration (2)' is clicked on
+
+2022-01-17 07:18:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/a_Courses")): Object: 'Object Repository/Page_Moodle Administration Search/a_Courses' is clicked on
+
+2022-01-17 07:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Courses' is clicked on
+
+2022-01-17 07:18:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/a_Add a category")): Object: 'Object Repository/Page_Moodle Administration Search/a_Add a category' is clicked on
+
+2022-01-17 07:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Add a category' is clicked on
+
+2022-01-17 07:18:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Add new category/input_Category name_name"), "New Category"): Text 'New Category' is set on object 'Object Repository/Page_Moodle Add new category/input_Category name_name'
+
+2022-01-17 07:18:07 - [MESSAGE][PASSED] - Text 'New Category' is set on object 'Object Repository/Page_Moodle Add new category/input_Category name_name'
+
+2022-01-17 07:18:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Add new category/input_Description_submitbutton")): Object: 'Object Repository/Page_Moodle Add new category/input_Description_submitbutton' is clicked on
+
+2022-01-17 07:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Add new category/input_Description_submitbutton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Add Child Category" time="16.497" classname="Test Cases/Admin Add Child Category" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:18:12 - [TEST_CASE][PASSED] - Test Cases/Admin Add Child Category: Test Cases/Admin Add Child Category
+
+2022-01-17 07:18:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:18:12 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:18:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:18:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 07:18:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:18:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:18:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:18:14 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:18:14 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:18:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:18:15 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:18:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:18:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:18:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:18:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:18:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard/span_Site administration")): Object: 'Object Repository/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-17 07:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-17 07:18:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/a_Courses (1)")): Object: 'Object Repository/Page_Moodle Administration Search/a_Courses (1)' is clicked on
+
+2022-01-17 07:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Courses (1)' is clicked on
+
+2022-01-17 07:18:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/a_Add a category (1)")): Object: 'Object Repository/Page_Moodle Administration Search/a_Add a category (1)' is clicked on
+
+2022-01-17 07:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Add a category (1)' is clicked on
+
+2022-01-17 07:18:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Add new category/span_")): Object: 'Object Repository/Page_Moodle Add new category/span_' is clicked on
+
+2022-01-17 07:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Add new category/span_' is clicked on
+
+2022-01-17 07:18:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Add new category/li_New Category")): Object: 'Object Repository/Page_Moodle Add new category/li_New Category' is clicked on
+
+2022-01-17 07:18:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Add new category/li_New Category' is clicked on
+
+2022-01-17 07:18:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Moodle Add new category/select_Top            Miscellaneous        _183c6c"), "2", true): All options with value '2' are selected in object 'Object Repository/Page_Moodle Add new category/select_Top            Miscellaneous        _183c6c'  using regular expression
+
+2022-01-17 07:18:25 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Moodle Add new category/select_Top            Miscellaneous        _183c6c'  using regular expression
+
+2022-01-17 07:18:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Add new category/input_Category name_name (1)"), "Child Category"): Text 'Child Category' is set on object 'Object Repository/Page_Moodle Add new category/input_Category name_name (1)'
+
+2022-01-17 07:18:26 - [MESSAGE][PASSED] - Text 'Child Category' is set on object 'Object Repository/Page_Moodle Add new category/input_Category name_name (1)'
+
+2022-01-17 07:18:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Add new category/input_Description_submitbutton (1)")): Object: 'Object Repository/Page_Moodle Add new category/input_Description_submitbutton (1)' is clicked on
+
+2022-01-17 07:18:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Add new category/input_Description_submitbutton (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Add New Course" time="14.82" classname="Test Cases/Admin Add New Course" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:18:28 - [TEST_CASE][PASSED] - Test Cases/Admin Add New Course: Test Cases/Admin Add New Course
+
+2022-01-17 07:18:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:18:28 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:18:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:18:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 07:18:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:18:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:18:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:18:30 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:18:31 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:18:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:18:32 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:18:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:18:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:18:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:18:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:18:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard/span_Site administration")): Object: 'Object Repository/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-17 07:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-17 07:18:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/a_Courses (2)")): Object: 'Object Repository/Page_Moodle Administration Search/a_Courses (2)' is clicked on
+
+2022-01-17 07:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Courses (2)' is clicked on
+
+2022-01-17 07:18:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/a_Add a new course")): Object: 'Object Repository/Page_Moodle Administration Search/a_Add a new course' is clicked on
+
+2022-01-17 07:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Add a new course' is clicked on
+
+2022-01-17 07:18:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Add a new course/input_Course full name_fullname (1)"), "New Course"): Text 'New Course' is set on object 'Object Repository/Page_Moodle Add a new course/input_Course full name_fullname (1)'
+
+2022-01-17 07:18:40 - [MESSAGE][PASSED] - Text 'New Course' is set on object 'Object Repository/Page_Moodle Add a new course/input_Course full name_fullname (1)'
+
+2022-01-17 07:18:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Add a new course/input_Course short name_shortname (1)"), "New Course"): Text 'New Course' is set on object 'Object Repository/Page_Moodle Add a new course/input_Course short name_shortname (1)'
+
+2022-01-17 07:18:41 - [MESSAGE][PASSED] - Text 'New Course' is set on object 'Object Repository/Page_Moodle Add a new course/input_Course short name_shortname (1)'
+
+2022-01-17 07:18:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Add a new course/input__saveanddisplay")): Object: 'Object Repository/Page_Moodle Add a new course/input__saveanddisplay' is clicked on
+
+2022-01-17 07:18:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Add a new course/input__saveanddisplay' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin_Switch_Role" time="3.935" classname="Test Cases/Admin_Switch_Role" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:18:43 - [TEST_CASE][PASSED] - Test Cases/Admin_Switch_Role: Test Cases/Admin_Switch_Role
+
+2022-01-17 07:18:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Moodle Add an announcement/Page_Dashboard/a_Admin User")): Object: 'Object Repository/Page_Moodle Add an announcement/Page_Dashboard/a_Admin User' is clicked on
+
+2022-01-17 07:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Add an announcement/Page_Dashboard/a_Admin User' is clicked on
+
+2022-01-17 07:18:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Moodle Add an announcement/Page_Dashboard/span_Switch role to")): Object: 'Object Repository/Page_Moodle Add an announcement/Page_Dashboard/span_Switch role to' is clicked on
+
+2022-01-17 07:18:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Add an announcement/Page_Dashboard/span_Switch role to' is clicked on
+
+2022-01-17 07:18:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Moodle Add an announcement/Page_Switch role to/button_Teacher")): Object: 'Object Repository/Page_Moodle Add an announcement/Page_Switch role to/button_Teacher' is clicked on
+
+2022-01-17 07:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Add an announcement/Page_Switch role to/button_Teacher' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Teacher_Add_NewAnnouncement" time="0.372" classname="Test Cases/Teacher_Add_NewAnnouncement" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:18:47 - [TEST_CASE][PASSED] - Test Cases/Teacher_Add_NewAnnouncement: Test Cases/Teacher_Add_NewAnnouncement
+
+2022-01-17 07:18:47 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Edit Courses Name" time="14.07" classname="Test Cases/Admin Edit Courses Name" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:18:47 - [TEST_CASE][PASSED] - Test Cases/Admin Edit Courses Name: Test Cases/Admin Edit Courses Name
+
+2022-01-17 07:18:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:18:48 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:18:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:18:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 07:18:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:18:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:18:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:18:49 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:18:50 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:18:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:18:51 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:18:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:18:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:18:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:18:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:18:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Site home (1)")): Object: 'Object Repository/Page_Dashboard/span_Site home (1)' is clicked on
+
+2022-01-17 07:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site home (1)' is clicked on
+
+2022-01-17 07:18:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_New Course")): Object: 'Object Repository/Page_Moodle/a_New Course' is clicked on
+
+2022-01-17 07:18:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_New Course' is clicked on
+
+2022-01-17 07:18:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course New Course/i_New Course_icon fa fa-cog fa-fw")): Object: 'Object Repository/Page_Course New Course/i_New Course_icon fa fa-cog fa-fw' is clicked on
+
+2022-01-17 07:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course New Course/i_New Course_icon fa fa-cog fa-fw' is clicked on
+
+2022-01-17 07:18:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course New Course/a_Edit settings")): Object: 'Object Repository/Page_Course New Course/a_Edit settings' is clicked on
+
+2022-01-17 07:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course New Course/a_Edit settings' is clicked on
+
+2022-01-17 07:18:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Edit course settings/input_Course full name_fullname"), "New Course Edited"): Text 'New Course Edited' is set on object 'Object Repository/Page_Edit course settings/input_Course full name_fullname'
+
+2022-01-17 07:19:00 - [MESSAGE][PASSED] - Text 'New Course Edited' is set on object 'Object Repository/Page_Edit course settings/input_Course full name_fullname'
+
+2022-01-17 07:19:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Edit course settings/input__saveanddisplay")): Object: 'Object Repository/Page_Edit course settings/input__saveanddisplay' is clicked on
+
+2022-01-17 07:19:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Edit course settings/input__saveanddisplay' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Assign Manager" time="15.199" classname="Test Cases/Admin Assign Manager" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:19:01 - [TEST_CASE][PASSED] - Test Cases/Admin Assign Manager: Test Cases/Admin Assign Manager
+
+2022-01-17 07:19:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:19:02 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:19:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:19:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 07:19:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:19:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:19:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:19:04 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:19:04 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:19:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:19:05 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:19:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:19:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:19:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:19:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:19:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:19:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Site administration (8)")): Object: 'Object Repository/Page_Dashboard/span_Site administration (8)' is clicked on
+
+2022-01-17 07:19:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site administration (8)' is clicked on
+
+2022-01-17 07:19:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Moodle Administration Search/a_Users (6)")): Object: 'Object Repository/Page_Moodle Administration Search/a_Users (6)' is clicked on
+
+2022-01-17 07:19:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Users (6)' is clicked on
+
+2022-01-17 07:19:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/a_Assign system roles")): Object: 'Object Repository/Page_Moodle Administration Search/a_Assign system roles' is clicked on
+
+2022-01-17 07:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Assign system roles' is clicked on
+
+2022-01-17 07:19:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Manager")): Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Manager' is clicked on
+
+2022-01-17 07:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Manager' is clicked on
+
+2022-01-17 07:19:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Moodle Administration Users Permission_6fdc16/select_c H (hongocminhducgmail.com)    c H _8cfc97"), "2", true): All options with value '2' are selected in object 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/select_c H (hongocminhducgmail.com)    c H _8cfc97'  using regular expression
+
+2022-01-17 07:19:14 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/select_c H (hongocminhducgmail.com)    c H _8cfc97'  using regular expression
+
+2022-01-17 07:19:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Users Permission_6fdc16/input_Match the search text anywhere in the_89f7b5")): Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/input_Match the search text anywhere in the_89f7b5' is clicked on
+
+2022-01-17 07:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/input_Match the search text anywhere in the_89f7b5' is clicked on
+
+2022-01-17 07:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Back to the list of all roles")): Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Back to the list of all roles' is clicked on
+
+2022-01-17 07:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Back to the list of all roles' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Remove Manager" time="14.629" classname="Test Cases/Admin Remove Manager" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:19:16 - [TEST_CASE][PASSED] - Test Cases/Admin Remove Manager: Test Cases/Admin Remove Manager
+
+2022-01-17 07:19:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:19:17 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:19:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:19:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 07:19:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:19:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:19:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:19:19 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:19:19 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:19:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:19:20 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:19:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:19:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:19:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:19:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:19:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Site administration (9)")): Object: 'Object Repository/Page_Dashboard/span_Site administration (9)' is clicked on
+
+2022-01-17 07:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site administration (9)' is clicked on
+
+2022-01-17 07:19:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Moodle Administration Search/a_Users (6)")): Object: 'Object Repository/Page_Moodle Administration Search/a_Users (6)' is clicked on
+
+2022-01-17 07:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Users (6)' is clicked on
+
+2022-01-17 07:19:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/a_Assign system roles (1)")): Object: 'Object Repository/Page_Moodle Administration Search/a_Assign system roles (1)' is clicked on
+
+2022-01-17 07:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Assign system roles (1)' is clicked on
+
+2022-01-17 07:19:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Manager (1)")): Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Manager (1)' is clicked on
+
+2022-01-17 07:19:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Manager (1)' is clicked on
+
+2022-01-17 07:19:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Moodle Administration Users Permission_6fdc16/select_c H (hongocminhducgmail.com)"), "2", true): All options with value '2' are selected in object 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/select_c H (hongocminhducgmail.com)'  using regular expression
+
+2022-01-17 07:19:29 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/select_c H (hongocminhducgmail.com)'  using regular expression
+
+2022-01-17 07:19:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Users Permission_6fdc16/input_Match the search text anywhere in the_31d039")): Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/input_Match the search text anywhere in the_31d039' is clicked on
+
+2022-01-17 07:19:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/input_Match the search text anywhere in the_31d039' is clicked on
+
+2022-01-17 07:19:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Back to the list of all roles (1)")): Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Back to the list of all roles (1)' is clicked on
+
+2022-01-17 07:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Back to the list of all roles (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Assign Course Creator" time="15.038" classname="Test Cases/Admin Assign Course Creator" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:19:31 - [TEST_CASE][PASSED] - Test Cases/Admin Assign Course Creator: Test Cases/Admin Assign Course Creator
+
+2022-01-17 07:19:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:19:32 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:19:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:19:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 07:19:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:19:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:19:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:19:33 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:19:34 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:19:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:19:35 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:19:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:19:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:19:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:19:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:19:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:19:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Site administration (10)")): Object: 'Object Repository/Page_Dashboard/span_Site administration (10)' is clicked on
+
+2022-01-17 07:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site administration (10)' is clicked on
+
+2022-01-17 07:19:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/a_Users (6)")): Object: 'Object Repository/Page_Moodle Administration Search/a_Users (6)' is clicked on
+
+2022-01-17 07:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Users (6)' is clicked on
+
+2022-01-17 07:19:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/a_Assign system roles (2)")): Object: 'Object Repository/Page_Moodle Administration Search/a_Assign system roles (2)' is clicked on
+
+2022-01-17 07:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Assign system roles (2)' is clicked on
+
+2022-01-17 07:19:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Course creator")): Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Course creator' is clicked on
+
+2022-01-17 07:19:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Course creator' is clicked on
+
+2022-01-17 07:19:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Moodle Administration Users Permission_6fdc16/select_c H (hongocminhducgmail.com)    c H _8cfc97 (1)"), "2", true): All options with value '2' are selected in object 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/select_c H (hongocminhducgmail.com)    c H _8cfc97 (1)'  using regular expression
+
+2022-01-17 07:19:44 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/select_c H (hongocminhducgmail.com)    c H _8cfc97 (1)'  using regular expression
+
+2022-01-17 07:19:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Users Permission_6fdc16/input_Match the search text anywhere in the_89f7b5 (1)")): Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/input_Match the search text anywhere in the_89f7b5 (1)' is clicked on
+
+2022-01-17 07:19:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/input_Match the search text anywhere in the_89f7b5 (1)' is clicked on
+
+2022-01-17 07:19:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Back to the list of all roles (2)")): Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Back to the list of all roles (2)' is clicked on
+
+2022-01-17 07:19:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Back to the list of all roles (2)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Remove Course Creator" time="15.273" classname="Test Cases/Admin Remove Course Creator" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:19:46 - [TEST_CASE][PASSED] - Test Cases/Admin Remove Course Creator: Test Cases/Admin Remove Course Creator
+
+2022-01-17 07:19:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:19:47 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:19:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:19:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 07:19:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:19:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:19:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:19:48 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:19:49 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:19:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:19:50 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:19:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:19:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:19:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:19:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:19:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Site administration (11)")): Object: 'Object Repository/Page_Dashboard/span_Site administration (11)' is clicked on
+
+2022-01-17 07:19:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site administration (11)' is clicked on
+
+2022-01-17 07:19:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/a_Users (7)")): Object: 'Object Repository/Page_Moodle Administration Search/a_Users (7)' is clicked on
+
+2022-01-17 07:19:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Users (7)' is clicked on
+
+2022-01-17 07:19:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Search/a_Assign system roles (3)")): Object: 'Object Repository/Page_Moodle Administration Search/a_Assign system roles (3)' is clicked on
+
+2022-01-17 07:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Search/a_Assign system roles (3)' is clicked on
+
+2022-01-17 07:19:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Course creator (1)")): Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Course creator (1)' is clicked on
+
+2022-01-17 07:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Course creator (1)' is clicked on
+
+2022-01-17 07:19:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Moodle Administration Users Permission_6fdc16/select_c H (hongocminhducgmail.com) (1)"), "2", true): All options with value '2' are selected in object 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/select_c H (hongocminhducgmail.com) (1)'  using regular expression
+
+2022-01-17 07:19:59 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/select_c H (hongocminhducgmail.com) (1)'  using regular expression
+
+2022-01-17 07:19:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Users Permission_6fdc16/input_Match the search text anywhere in the_31d039 (1)")): Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/input_Match the search text anywhere in the_31d039 (1)' is clicked on
+
+2022-01-17 07:20:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/input_Match the search text anywhere in the_31d039 (1)' is clicked on
+
+2022-01-17 07:20:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Back to the list of all roles (3)")): Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Back to the list of all roles (3)' is clicked on
+
+2022-01-17 07:20:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Administration Users Permission_6fdc16/a_Back to the list of all roles (3)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Enroll Student" time="17.126" classname="Test Cases/Admin Enroll Student" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:20:01 - [TEST_CASE][PASSED] - Test Cases/Admin Enroll Student: Test Cases/Admin Enroll Student
+
+2022-01-17 07:20:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:20:02 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:20:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:20:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 07:20:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:20:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:20:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:20:04 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:20:04 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:20:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:20:05 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:20:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:20:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:20:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:20:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:20:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Site home (3)")): Object: 'Object Repository/Page_Dashboard/span_Site home (3)' is clicked on
+
+2022-01-17 07:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site home (3)' is clicked on
+
+2022-01-17 07:20:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_New Course Edited (2)")): Object: 'Object Repository/Page_Moodle/a_New Course Edited (2)' is clicked on
+
+2022-01-17 07:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_New Course Edited (2)' is clicked on
+
+2022-01-17 07:20:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (2)")): Object: 'Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (2)' is clicked on
+
+2022-01-17 07:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (2)' is clicked on
+
+2022-01-17 07:20:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course New Course Edited/a_More (2)")): Object: 'Object Repository/Page_Course New Course Edited/a_More (2)' is clicked on
+
+2022-01-17 07:20:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course New Course Edited/a_More (2)' is clicked on
+
+2022-01-17 07:20:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course administration/a_Users (2)")): Object: 'Object Repository/Page_Course administration/a_Users (2)' is clicked on
+
+2022-01-17 07:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course administration/a_Users (2)' is clicked on
+
+2022-01-17 07:20:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course administration/a_Enrolled users (2)")): Object: 'Object Repository/Page_Course administration/a_Enrolled users (2)' is clicked on
+
+2022-01-17 07:20:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course administration/a_Enrolled users (2)' is clicked on
+
+2022-01-17 07:20:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_New Course Participants/input_Participants_btn btn-secondary my-1 (1)")): Object: 'Object Repository/Page_New Course Participants/input_Participants_btn btn-secondary my-1 (1)' is clicked on
+
+2022-01-17 07:20:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Course Participants/input_Participants_btn btn-secondary my-1 (1)' is clicked on
+
+2022-01-17 07:20:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_New Course Participants/span_ (1)")): Object: 'Object Repository/Page_New Course Participants/span_ (1)' is clicked on
+
+2022-01-17 07:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Course Participants/span_ (1)' is clicked on
+
+2022-01-17 07:20:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_New Course Participants/li_c H    hongocminhducgmail.com")): Object: 'Object Repository/Page_New Course Participants/li_c H    hongocminhducgmail.com' is clicked on
+
+2022-01-17 07:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Course Participants/li_c H    hongocminhducgmail.com' is clicked on
+
+2022-01-17 07:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_New Course Participants/button_Enrol users (2)")): Object: 'Object Repository/Page_New Course Participants/button_Enrol users (2)' is clicked on
+
+2022-01-17 07:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Course Participants/button_Enrol users (2)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Unenroll Student" time="13.466" classname="Test Cases/Admin Unenroll Student" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:20:19 - [TEST_CASE][PASSED] - Test Cases/Admin Unenroll Student: Test Cases/Admin Unenroll Student
+
+2022-01-17 07:20:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:20:19 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:20:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:20:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 07:20:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:20:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:20:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:20:21 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:20:22 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:20:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:20:23 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:20:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:20:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:20:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:20:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:20:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Site home (2)")): Object: 'Object Repository/Page_Dashboard/span_Site home (2)' is clicked on
+
+2022-01-17 07:20:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site home (2)' is clicked on
+
+2022-01-17 07:20:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_New Course Edited")): Object: 'Object Repository/Page_Moodle/a_New Course Edited' is clicked on
+
+2022-01-17 07:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_New Course Edited' is clicked on
+
+2022-01-17 07:20:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw")): Object: 'Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw' is clicked on
+
+2022-01-17 07:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw' is clicked on
+
+2022-01-17 07:20:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course New Course Edited/a_More")): Object: 'Object Repository/Page_Course New Course Edited/a_More' is clicked on
+
+2022-01-17 07:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course New Course Edited/a_More' is clicked on
+
+2022-01-17 07:20:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course administration/a_Users")): Object: 'Object Repository/Page_Course administration/a_Users' is clicked on
+
+2022-01-17 07:20:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course administration/a_Users' is clicked on
+
+2022-01-17 07:20:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course administration/a_Enrolled users")): Object: 'Object Repository/Page_Course administration/a_Enrolled users' is clicked on
+
+2022-01-17 07:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course administration/a_Enrolled users' is clicked on
+
+2022-01-17 07:20:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_New Course Participants/i_Active_icon fa fa-trash fa-fw")): Object: 'Object Repository/Page_New Course Participants/i_Active_icon fa fa-trash fa-fw' is clicked on
+
+2022-01-17 07:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Course Participants/i_Active_icon fa fa-trash fa-fw' is clicked on
+
+2022-01-17 07:20:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_New Course Participants/button_Unenrol")): Object: 'Object Repository/Page_New Course Participants/button_Unenrol' is clicked on
+
+2022-01-17 07:20:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Course Participants/button_Unenrol' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Assign Course Teacher" time="17.783" classname="Test Cases/Admin Assign Course Teacher" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:20:32 - [TEST_CASE][PASSED] - Test Cases/Admin Assign Course Teacher: Test Cases/Admin Assign Course Teacher
+
+2022-01-17 07:20:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:20:33 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:20:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:20:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 07:20:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:20:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:20:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:20:35 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:20:35 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:20:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:20:36 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:20:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:20:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:20:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:20:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:20:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:20:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Site home (5)")): Object: 'Object Repository/Page_Dashboard/span_Site home (5)' is clicked on
+
+2022-01-17 07:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site home (5)' is clicked on
+
+2022-01-17 07:20:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_New Course Edited (4)")): Object: 'Object Repository/Page_Moodle/a_New Course Edited (4)' is clicked on
+
+2022-01-17 07:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_New Course Edited (4)' is clicked on
+
+2022-01-17 07:20:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (4)")): Object: 'Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (4)' is clicked on
+
+2022-01-17 07:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (4)' is clicked on
+
+2022-01-17 07:20:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course New Course Edited/a_More (4)")): Object: 'Object Repository/Page_Course New Course Edited/a_More (4)' is clicked on
+
+2022-01-17 07:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course New Course Edited/a_More (4)' is clicked on
+
+2022-01-17 07:20:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course administration/a_Users (4)")): Object: 'Object Repository/Page_Course administration/a_Users (4)' is clicked on
+
+2022-01-17 07:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course administration/a_Users (4)' is clicked on
+
+2022-01-17 07:20:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course administration/a_Other users")): Object: 'Object Repository/Page_Course administration/a_Other users' is clicked on
+
+2022-01-17 07:20:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course administration/a_Other users' is clicked on
+
+2022-01-17 07:20:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_New Course Edited 0 other users/button_Assign roles")): Object: 'Object Repository/Page_New Course Edited 0 other users/button_Assign roles' is clicked on
+
+2022-01-17 07:20:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Course Edited 0 other users/button_Assign roles' is clicked on
+
+2022-01-17 07:20:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Assign roles in Course New Course Edited/a_Teacher")): Object: 'Object Repository/Page_Assign roles in Course New Course Edited/a_Teacher' is clicked on
+
+2022-01-17 07:20:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Assign roles in Course New Course Edited/a_Teacher' is clicked on
+
+2022-01-17 07:20:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/select_c H (hongocminhducgmail.com)    c H _8cfc97"), "2", true): All options with value '2' are selected in object 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/select_c H (hongocminhducgmail.com)    c H _8cfc97'  using regular expression
+
+2022-01-17 07:20:48 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/select_c H (hongocminhducgmail.com)    c H _8cfc97'  using regular expression
+
+2022-01-17 07:20:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/input_Match the search text anywhere in the_89f7b5")): Object: 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/input_Match the search text anywhere in the_89f7b5' is clicked on
+
+2022-01-17 07:20:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/input_Match the search text anywhere in the_89f7b5' is clicked on
+
+2022-01-17 07:20:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/a_Back to the list of all roles")): Object: 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/a_Back to the list of all roles' is clicked on
+
+2022-01-17 07:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/a_Back to the list of all roles' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Remove Course Teacher" time="16.432" classname="Test Cases/Admin Remove Course Teacher" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:20:50 - [TEST_CASE][PASSED] - Test Cases/Admin Remove Course Teacher: Test Cases/Admin Remove Course Teacher
+
+2022-01-17 07:20:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:20:50 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:20:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:20:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 07:20:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:20:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:20:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:20:52 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:20:53 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:20:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:20:54 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:20:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:20:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:20:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:20:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:20:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:20:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Site home (5)")): Object: 'Object Repository/Page_Dashboard/span_Site home (5)' is clicked on
+
+2022-01-17 07:20:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site home (5)' is clicked on
+
+2022-01-17 07:20:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_New Course Edited (4)")): Object: 'Object Repository/Page_Moodle/a_New Course Edited (4)' is clicked on
+
+2022-01-17 07:20:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_New Course Edited (4)' is clicked on
+
+2022-01-17 07:20:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (4)")): Object: 'Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (4)' is clicked on
+
+2022-01-17 07:21:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (4)' is clicked on
+
+2022-01-17 07:21:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course New Course Edited/a_More (4)")): Object: 'Object Repository/Page_Course New Course Edited/a_More (4)' is clicked on
+
+2022-01-17 07:21:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course New Course Edited/a_More (4)' is clicked on
+
+2022-01-17 07:21:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course administration/a_Users (4)")): Object: 'Object Repository/Page_Course administration/a_Users (4)' is clicked on
+
+2022-01-17 07:21:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course administration/a_Users (4)' is clicked on
+
+2022-01-17 07:21:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course administration/a_Other users")): Object: 'Object Repository/Page_Course administration/a_Other users' is clicked on
+
+2022-01-17 07:21:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course administration/a_Other users' is clicked on
+
+2022-01-17 07:21:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_New Course Edited 0 other users/button_Assign roles")): Object: 'Object Repository/Page_New Course Edited 0 other users/button_Assign roles' is clicked on
+
+2022-01-17 07:21:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Course Edited 0 other users/button_Assign roles' is clicked on
+
+2022-01-17 07:21:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Assign roles in Course New Course Edited/a_Teacher")): Object: 'Object Repository/Page_Assign roles in Course New Course Edited/a_Teacher' is clicked on
+
+2022-01-17 07:21:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Assign roles in Course New Course Edited/a_Teacher' is clicked on
+
+2022-01-17 07:21:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/select_c H (hongocminhducgmail.com)"), "2", true): All options with value '2' are selected in object 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/select_c H (hongocminhducgmail.com)'  using regular expression
+
+2022-01-17 07:21:05 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/select_c H (hongocminhducgmail.com)'  using regular expression
+
+2022-01-17 07:21:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/input_Match the search text anywhere in the_31d039")): Object: 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/input_Match the search text anywhere in the_31d039' is clicked on
+
+2022-01-17 07:21:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/input_Match the search text anywhere in the_31d039' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin assign non-edit teacher" time="17.404" classname="Test Cases/Admin assign non-edit teacher" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:21:06 - [TEST_CASE][PASSED] - Test Cases/Admin assign non-edit teacher: Test Cases/Admin assign non-edit teacher
+
+2022-01-17 07:21:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:21:07 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:21:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:21:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 07:21:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:21:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:21:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:21:09 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:21:09 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:21:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:21:10 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:21:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:21:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:21:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:21:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:21:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:21:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Site home (5)")): Object: 'Object Repository/Page_Dashboard/span_Site home (5)' is clicked on
+
+2022-01-17 07:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site home (5)' is clicked on
+
+2022-01-17 07:21:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_New Course Edited (4)")): Object: 'Object Repository/Page_Moodle/a_New Course Edited (4)' is clicked on
+
+2022-01-17 07:21:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_New Course Edited (4)' is clicked on
+
+2022-01-17 07:21:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (4)")): Object: 'Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (4)' is clicked on
+
+2022-01-17 07:21:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (4)' is clicked on
+
+2022-01-17 07:21:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course New Course Edited/a_More (4)")): Object: 'Object Repository/Page_Course New Course Edited/a_More (4)' is clicked on
+
+2022-01-17 07:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course New Course Edited/a_More (4)' is clicked on
+
+2022-01-17 07:21:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course administration/a_Users (4)")): Object: 'Object Repository/Page_Course administration/a_Users (4)' is clicked on
+
+2022-01-17 07:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course administration/a_Users (4)' is clicked on
+
+2022-01-17 07:21:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course administration/a_Other users")): Object: 'Object Repository/Page_Course administration/a_Other users' is clicked on
+
+2022-01-17 07:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course administration/a_Other users' is clicked on
+
+2022-01-17 07:21:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_New Course Edited 0 other users/button_Assign roles")): Object: 'Object Repository/Page_New Course Edited 0 other users/button_Assign roles' is clicked on
+
+2022-01-17 07:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Course Edited 0 other users/button_Assign roles' is clicked on
+
+2022-01-17 07:21:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_Course New Course Edited/a_non_edit")): Object: 'Object Repository/Page_Course New Course Edited/a_non_edit' is clicked on
+
+2022-01-17 07:21:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course New Course Edited/a_non_edit' is clicked on
+
+2022-01-17 07:21:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/select_c H (hongocminhducgmail.com)    c H _8cfc97"), "2", true): All options with value '2' are selected in object 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/select_c H (hongocminhducgmail.com)    c H _8cfc97'  using regular expression
+
+2022-01-17 07:21:22 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/select_c H (hongocminhducgmail.com)    c H _8cfc97'  using regular expression
+
+2022-01-17 07:21:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/input_Match the search text anywhere in the_89f7b5")): Object: 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/input_Match the search text anywhere in the_89f7b5' is clicked on
+
+2022-01-17 07:21:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/input_Match the search text anywhere in the_89f7b5' is clicked on
+
+2022-01-17 07:21:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/a_Back to the list of all roles")): Object: 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/a_Back to the list of all roles' is clicked on
+
+2022-01-17 07:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/a_Back to the list of all roles' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin remove non-edit teacher" time="16.325" classname="Test Cases/Admin remove non-edit teacher" status="PASSED">
+         <system-out><![CDATA[2022-01-17 07:21:24 - [TEST_CASE][PASSED] - Test Cases/Admin remove non-edit teacher: Test Cases/Admin remove non-edit teacher
+
+2022-01-17 07:21:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Admin Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:21:24 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2022-01-17 07:21:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 07:21:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 07:21:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 07:21:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 07:21:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 07:21:26 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/moodle/login/index.php"): Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:21:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost/moodle/login/index.php' successfully
+
+2022-01-17 07:21:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:21:28 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Moodle Log in to the site/input_Username_username'
+
+2022-01-17 07:21:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Moodle Log in to the site/input_Password_password"), "8JanWqnBZBo6yBKKrpSnpw=="): Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:21:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Moodle Log in to the site/input_Password_password'
+
+2022-01-17 07:21:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle Log in to the site/button_Log in")): Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:21:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle Log in to the site/button_Log in' is clicked on
+
+2022-01-17 07:21:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Admin Login' successfully
+
+2022-01-17 07:21:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Site home (5)")): Object: 'Object Repository/Page_Dashboard/span_Site home (5)' is clicked on
+
+2022-01-17 07:21:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Site home (5)' is clicked on
+
+2022-01-17 07:21:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Moodle/a_New Course Edited (4)")): Object: 'Object Repository/Page_Moodle/a_New Course Edited (4)' is clicked on
+
+2022-01-17 07:21:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Moodle/a_New Course Edited (4)' is clicked on
+
+2022-01-17 07:21:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (4)")): Object: 'Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (4)' is clicked on
+
+2022-01-17 07:21:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course New Course Edited/i_New Course Edited_icon fa fa-cog fa-fw (4)' is clicked on
+
+2022-01-17 07:21:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course New Course Edited/a_More (4)")): Object: 'Object Repository/Page_Course New Course Edited/a_More (4)' is clicked on
+
+2022-01-17 07:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course New Course Edited/a_More (4)' is clicked on
+
+2022-01-17 07:21:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course administration/a_Users (4)")): Object: 'Object Repository/Page_Course administration/a_Users (4)' is clicked on
+
+2022-01-17 07:21:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course administration/a_Users (4)' is clicked on
+
+2022-01-17 07:21:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Course administration/a_Other users")): Object: 'Object Repository/Page_Course administration/a_Other users' is clicked on
+
+2022-01-17 07:21:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course administration/a_Other users' is clicked on
+
+2022-01-17 07:21:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_New Course Edited 0 other users/button_Assign roles")): Object: 'Object Repository/Page_New Course Edited 0 other users/button_Assign roles' is clicked on
+
+2022-01-17 07:21:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Course Edited 0 other users/button_Assign roles' is clicked on
+
+2022-01-17 07:21:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Course New Course Edited/a_non_edit")): Object: 'Object Repository/Page_Course New Course Edited/a_non_edit' is clicked on
+
+2022-01-17 07:21:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Course New Course Edited/a_non_edit' is clicked on
+
+2022-01-17 07:21:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/select_c H (hongocminhducgmail.com)"), "2", true): All options with value '2' are selected in object 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/select_c H (hongocminhducgmail.com)'  using regular expression
+
+2022-01-17 07:21:39 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/select_c H (hongocminhducgmail.com)'  using regular expression
+
+2022-01-17 07:21:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/input_Match the search text anywhere in the_31d039")): Object: 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/input_Match the search text anywhere in the_31d039' is clicked on
+
+2022-01-17 07:21:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Assign role Teacher in Course New Cour_04a7a0/input_Match the search text anywhere in the_31d039' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-17 07:16:27 - [TEST_SUITE][PASSED] - Run all test cases: Test Cases/Admin remove non-edit teacher]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
