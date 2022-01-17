@@ -30,7 +30,7 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/but
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/i_See all_icon fa fa-comment fa-fw (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/strong_c H (1)'))
+WebUI.click(findTestObject('Page_Dashboard/strong_c H'))
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/i__icon fa fa-smile-o fa-fw'))
 
