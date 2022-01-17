@@ -251,4 +251,64 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher View Participants</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9a3a7a25-c9d1-49a3-a411-068181dde287</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User Private Chat</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>041fb62b-08fb-42f4-8ace-b52021d30926</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User Private Chat Emoji</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a518af35-c9bf-4a60-b0c3-0953ce1235d0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User Edit Email</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8207452e-cf76-43e7-b68a-2f59fb7ce98a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User Login Wrong Password</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2315c8f9-1255-44cd-b65b-227c0222b2be</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User Log out</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>acf2c875-6cf1-4563-be65-f0a58f8f65f6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Block Ip</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4798ccc0-9885-4390-ad6b-deb2be2304ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Add New Cohort</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cb92809b-9e46-4cd2-9746-513ca2641d03</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Edit Cohort</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b5cef1d-784c-417b-809b-616804cf328a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin delete Cohort</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>def8ef11-1805-4c19-8023-e3080f673d55</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Change Password</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
