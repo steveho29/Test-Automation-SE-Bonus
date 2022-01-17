@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Teacher Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home (19)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle/a_New Course Edited (18)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/button_Turn editing on (3)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/a_Edit (2)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/span_Hide'))
+

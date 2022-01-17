@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_Information about the Folder activity_i_e12f9c</name>
+   <name>span_Delete (1)</name>
    <tag></tag>
-   <elementGuidId>ff292630-55aa-478c-a425-2afa99913c29</elementGuidId>
+   <elementGuidId>35c8c46f-d8a1-41b4-8cca-824080784c13</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[10]/div/a/div/img</value>
+         <key>CSS</key>
+         <value>#actionmenuaction-112</value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//span[@id='actionmenuaction-112']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,55 +21,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>icon icon</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-hidden</name>
-      <type>Main</type>
-      <value>true</value>
+      <value>menu-action-text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>id</name>
       <type>Main</type>
-      <value>http://localhost/moodle/theme/image.php/boost/forum/1642331721/icon</value>
+      <value>actionmenuaction-112</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delete</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;all-4&quot;)/div[@class=&quot;optionscontainer d-flex flex-wrap p-1 mw-100 position-relative&quot;]/div[@class=&quot;option border-0 card m-1 bg-white&quot;]/div[@class=&quot;optioninfo card-body d-flex flex-column text-center p-1&quot;]/a[@class=&quot;d-flex flex-column justify-content-between flex-fill&quot;]/div[@class=&quot;optionicon mt-2 mb-1 icon-size-5 icon-no-margin&quot;]/img[@class=&quot;icon icon&quot;]</value>
+      <value>id(&quot;actionmenuaction-112&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='all-4']/div/div[10]/div/a/div/img</value>
+      <value>//span[@id='actionmenuaction-112']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(//img[contains(@src,'http://localhost/moodle/theme/image.php/boost/forum/1642331721/icon')])[3]</value>
+      <value>//a[@id='yui_3_17_2_1_1642391608444_967']/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assign roles'])[13]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Duplicate'])[13]/following::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Opened:'])[4]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[10]/div/a/div/img</value>
+      <value>//li[13]/div/div/div[2]/div[2]/div/div/div/div/a[7]/span</value>
    </webElementXpaths>
 </WebElementEntity>

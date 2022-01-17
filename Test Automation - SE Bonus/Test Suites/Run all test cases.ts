@@ -126,16 +126,16 @@
       <testCaseId>Test Cases/Admin assign non-edit teacher</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>83463857-7a20-4b52-be36-e44781ffe3d9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin remove non-edit teacher</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>bc07d770-4407-4434-a447-f61f8fa2ddc5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Student Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a8b2dd08-ca99-4602-b242-a72a5506a779</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student Attempt Quiz</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>37207dbd-c04e-42cb-814a-1ac2cfccc166</guid>
@@ -156,10 +156,10 @@
       <testCaseId>Test Cases/Student Reply A Discussion Topic</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a8b2dd08-ca99-4602-b242-a72a5506a779</guid>
+      <guid>83463857-7a20-4b52-be36-e44781ffe3d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Student Attempt Quiz</testCaseId>
+      <testCaseId>Test Cases/Admin remove non-edit teacher</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3ba054dc-e9f2-47e8-ab0e-9d8f1959269b</guid>
@@ -190,5 +190,65 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Student View Calendar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d825efff-a77a-4604-bc81-f400141a43e3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>56e43b5d-f9d5-4719-9880-fe9685c6c8a9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher Add New Forum</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>59bdda73-d674-4e37-95d1-7a313ba45cec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher Add New Chat Room</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>37dbc645-798b-487e-b9aa-42d5c15afb0b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher Create Assignment</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2c8eb6bb-f00a-4b63-b5ee-7a46099998f3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher Create Feedback</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8f1aa37d-3640-49dc-a48d-10bd66d3b249</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher Delete Feedback</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f4bb3ab6-07ae-444f-879a-afc07ec671ac</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher Edit Forum</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>382b3fd9-5c85-4165-b4e0-57a452a7e449</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher Hide Assignment</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5257c6a2-af57-4246-b09a-f2681b38a17c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher_Add_NewAnnouncement</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6b3eec9a-e4f1-4b0a-9f03-5672322540ea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher View Participants</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -17,19 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Teacher Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
+WebUI.navigateToUrl('http://localhost/moodle/login/index.php')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle/a_New Course Edited'))
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Log in to the site/input_Username_username (35)'), 'admin')
 
-WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/button_Turn editing on'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moodle Log in to the site/input_Password_password (35)'), 
+    '8JanWqnBZBo6yBKKrpSnpw==')
 
-WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/span_Add an activity or resource'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Log in to the site/button_Log in (26)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/img_Information about the Folder activity_i_e12f9c'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home (20)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Editing Forum/input_Forum name_name'), 'New Forum')
+WebUI.click(findTestObject('Object Repository/Page_Moodle/a_New Course Edited (19)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Editing Forum/input_Upon activity completion_submitbutton2'))
+WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/button_Turn editing on (4)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/a_Edit (3)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/a_Edit settings'))
+
+WebUI.click(findTestObject('Object Repository/Page_Editing Forum/input_Forum name_name (1)'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Editing Forum/input_Forum name_name (1)'), 'Forum Edited')
+
+WebUI.click(findTestObject('Object Repository/Page_Editing Forum/input_Upon activity completion_submitbutton2 (1)'))
 

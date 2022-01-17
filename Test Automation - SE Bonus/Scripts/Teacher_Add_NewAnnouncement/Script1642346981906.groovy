@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Teacher Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home (22)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle/a_New Course Edited (21)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/span_Announcements Forum'))
+
+WebUI.click(findTestObject('Object Repository/Page_Announcements/a_Add a new topic'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Announcements/input_Subject_subject'), 'New Topic')
+
+WebUI.setText(findTestObject('Object Repository/Page_Announcements/div_New Topic'), '<p dir="ltr" style="text-align: left;">New Topic</p>')
+
+WebUI.click(findTestObject('Object Repository/Page_Announcements/input_Message_submitbutton'))
+

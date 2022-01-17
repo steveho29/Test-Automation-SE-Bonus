@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Teacher Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
+WebUI.click(findTestObject('Page_Dashboard/span_Site home'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle/a_New Course Edited'))
+WebUI.click(findTestObject('Page_Moodle/a_New Course Edited'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/button_Turn editing on'))
+WebUI.click(findTestObject('Page_Course New Course Edited/button_Turn editing on'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/span_Add an activity or resource'))
+WebUI.click(findTestObject('Page_Course New Course Edited/a_Edit'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/img_Information about the Folder activity_i_e12f9c'))
+WebUI.click(findTestObject('Object Repository/Page_Course New Course Edited/span_Edit topic'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Editing Forum/input_Forum name_name'), 'New Forum')
+WebUI.click(findTestObject('Page_Moodle Add a new course/span_highlight'))
 
-WebUI.click(findTestObject('Object Repository/Page_Editing Forum/input_Upon activity completion_submitbutton2'))
+WebUI.click(findTestObject('Object Repository/Page_Edit Topic edited/input_Add restriction_submitbutton'))
 

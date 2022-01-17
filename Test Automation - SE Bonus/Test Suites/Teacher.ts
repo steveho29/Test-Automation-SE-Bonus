@@ -36,9 +36,39 @@
       <testCaseId>Test Cases/Teacher Create Assignment</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>30517373-0a7a-4859-b1e4-ade74eb29688</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher Hide Assignment</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>d8a949fd-5070-4412-9839-98d4bda3cb11</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher Create Feedback</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d12ea640-829e-4804-98db-cd7799a9a3dc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher Delete Feedback</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8bb254de-8e1f-4ed3-92be-a04bdd18df48</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher Edit Forum</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b8766915-ecbf-4690-b4ab-ba71e53ed14e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher_Add_NewAnnouncement</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4ec04413-2c37-46aa-9749-2a004dfa0e64</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher View Participants</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
