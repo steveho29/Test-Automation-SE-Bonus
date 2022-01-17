@@ -1,0 +1,50 @@
+{"testCaseName":"Test Cases/Admin Login","testCaseId":"Test Cases/Admin Login"}
+{"testCaseName":"Test Cases/Admin Add User","testCaseId":"Test Cases/Admin Add User"}
+{"testCaseName":"Test Cases/Admin Add Exists User","testCaseId":"Test Cases/Admin Add Exists User"}
+{"testCaseName":"Test Cases/Admin Update Profile","testCaseId":"Test Cases/Admin Update Profile"}
+{"testCaseName":"Test Cases/Admin Create New Category","testCaseId":"Test Cases/Admin Create New Category"}
+{"testCaseName":"Test Cases/Admin Add Child Category","testCaseId":"Test Cases/Admin Add Child Category"}
+{"testCaseName":"Test Cases/Admin Add New Course","testCaseId":"Test Cases/Admin Add New Course"}
+{"testCaseName":"Test Cases/Admin_Switch_Role","testCaseId":"Test Cases/Admin_Switch_Role"}
+{"testCaseName":"Test Cases/Teacher_Add_NewAnnouncement","testCaseId":"Test Cases/Teacher_Add_NewAnnouncement"}
+{"testCaseName":"Test Cases/Admin Edit Courses Name","testCaseId":"Test Cases/Admin Edit Courses Name"}
+{"testCaseName":"Test Cases/Admin Assign Manager","testCaseId":"Test Cases/Admin Assign Manager"}
+{"testCaseName":"Test Cases/Admin Remove Manager","testCaseId":"Test Cases/Admin Remove Manager"}
+{"testCaseName":"Test Cases/Admin Assign Course Creator","testCaseId":"Test Cases/Admin Assign Course Creator"}
+{"testCaseName":"Test Cases/Admin Remove Course Creator","testCaseId":"Test Cases/Admin Remove Course Creator"}
+{"testCaseName":"Test Cases/Admin Enroll Student","testCaseId":"Test Cases/Admin Enroll Student"}
+{"testCaseName":"Test Cases/Admin Unenroll Student","testCaseId":"Test Cases/Admin Unenroll Student"}
+{"testCaseName":"Test Cases/Admin Assign Course Teacher","testCaseId":"Test Cases/Admin Assign Course Teacher"}
+{"testCaseName":"Test Cases/Admin Remove Course Teacher","testCaseId":"Test Cases/Admin Remove Course Teacher"}
+{"testCaseName":"Test Cases/Admin assign non-edit teacher","testCaseId":"Test Cases/Admin assign non-edit teacher"}
+{"testCaseName":"Test Cases/Student Login","testCaseId":"Test Cases/Student Login"}
+{"testCaseName":"Test Cases/Student Attempt Quiz","testCaseId":"Test Cases/Student Attempt Quiz"}
+{"testCaseName":"Test Cases/Student View Grades","testCaseId":"Test Cases/Student View Grades"}
+{"testCaseName":"Test Cases/Student Add New Discussion Topic","testCaseId":"Test Cases/Student Add New Discussion Topic"}
+{"testCaseName":"Test Cases/Student Reply A Discussion Topic","testCaseId":"Test Cases/Student Reply A Discussion Topic"}
+{"testCaseName":"Test Cases/Admin remove non-edit teacher","testCaseId":"Test Cases/Admin remove non-edit teacher"}
+{"testCaseName":"Test Cases/Student Enter Chat Room","testCaseId":"Test Cases/Student Enter Chat Room"}
+{"testCaseName":"Test Cases/Student Mark As Done","testCaseId":"Test Cases/Student Mark As Done"}
+{"testCaseName":"Test Cases/Student Submit Assignment","testCaseId":"Test Cases/Student Submit Assignment"}
+{"testCaseName":"Test Cases/Student Submit Late","testCaseId":"Test Cases/Student Submit Late"}
+{"testCaseName":"Test Cases/Student View Calendar","testCaseId":"Test Cases/Student View Calendar"}
+{"testCaseName":"Test Cases/Teacher Login","testCaseId":"Test Cases/Teacher Login"}
+{"testCaseName":"Test Cases/Teacher Add New Forum","testCaseId":"Test Cases/Teacher Add New Forum"}
+{"testCaseName":"Test Cases/Teacher Add New Chat Room","testCaseId":"Test Cases/Teacher Add New Chat Room"}
+{"testCaseName":"Test Cases/Teacher Create Assignment","testCaseId":"Test Cases/Teacher Create Assignment"}
+{"testCaseName":"Test Cases/Teacher Create Feedback","testCaseId":"Test Cases/Teacher Create Feedback"}
+{"testCaseName":"Test Cases/Teacher Delete Feedback","testCaseId":"Test Cases/Teacher Delete Feedback"}
+{"testCaseName":"Test Cases/Teacher Edit Forum","testCaseId":"Test Cases/Teacher Edit Forum"}
+{"testCaseName":"Test Cases/Teacher Hide Assignment","testCaseId":"Test Cases/Teacher Hide Assignment"}
+{"testCaseName":"Test Cases/Teacher_Add_NewAnnouncement","testCaseId":"Test Cases/Teacher_Add_NewAnnouncement"}
+{"testCaseName":"Test Cases/Teacher View Participants","testCaseId":"Test Cases/Teacher View Participants"}
+{"testCaseName":"Test Cases/User Private Chat","testCaseId":"Test Cases/User Private Chat"}
+{"testCaseName":"Test Cases/User Private Chat Emoji","testCaseId":"Test Cases/User Private Chat Emoji"}
+{"testCaseName":"Test Cases/User Edit Email","testCaseId":"Test Cases/User Edit Email"}
+{"testCaseName":"Test Cases/User Login Wrong Password","testCaseId":"Test Cases/User Login Wrong Password"}
+{"testCaseName":"Test Cases/User Log out","testCaseId":"Test Cases/User Log out"}
+{"testCaseName":"Test Cases/Admin Block Ip","testCaseId":"Test Cases/Admin Block Ip"}
+{"testCaseName":"Test Cases/Admin Add New Cohort","testCaseId":"Test Cases/Admin Add New Cohort"}
+{"testCaseName":"Test Cases/Admin Edit Cohort","testCaseId":"Test Cases/Admin Edit Cohort"}
+{"testCaseName":"Test Cases/Admin delete Cohort","testCaseId":"Test Cases/Admin delete Cohort"}
+{"testCaseName":"Test Cases/Admin Change Password","testCaseId":"Test Cases/Admin Change Password"}
